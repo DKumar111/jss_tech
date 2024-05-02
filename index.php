@@ -730,7 +730,7 @@
                     others in</span> <br /> the past!
                 </h2>
         </div>
-        <div class="collab_brand_section container text-center pt-4 ">
+        <div class="collab_brand_section container text-center pt-4 " data-aos="slide-up" data-aos-once="true">
             <div class="col"><img src="image/brand_img/brand-1.svg" alt=""></div>
             <div class="collab_brand_img"><img src="image/brand_img/brand-2.svg" alt=""></div>
             <div class="collab_brand_img"><img src="image/brand_img/brand-3.svg" alt=""></div>
@@ -982,17 +982,17 @@
                 <h2 class="get_social_subtitle" data-aos="fade-up" data-aos-once="true">Join the conversation</h2>
                 <ul class="d-flex p-0 " data-aos="fade-up" data-aos-once="true">
                     <li class="social_item">
-                        <a class="text-primary" href="https://www.facebook.com/profile.php?id=61558598588235">
+                        <a class="" href="https://www.facebook.com/profile.php?id=61558598588235">
                             <i class="fa-brands fa-facebook-f"></i>
                         </a>
                     </li>
                     <li class="social_item">
-                        <a class="text-danger" href="https://www.instagram.com/jsstechnologiesllc/">
+                        <a class="" href="https://www.instagram.com/jsstechnologiesllc/">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
                     </li>
                     <li class="social_item">
-                        <a class="text-danger" href="https://www.youtube.com/channel/UCvjiQV9lwrhO0cFMPYHWc6A">
+                        <a class="" href="https://www.youtube.com/channel/UCvjiQV9lwrhO0cFMPYHWc6A">
                             <i class="fa-brands fa-youtube"></i>
                         </a>
                     </li>
