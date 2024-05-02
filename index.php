@@ -64,7 +64,7 @@
                         disruptive digital products.
                     </p>
                     <div class="hero_anchor">
-                        <a class="hero_anchor_content" href="tel:+9354637571">
+                        <a class="hero_anchor_content text-decoration-none " href="tel:+9354637571">
                             <span>
                                 Let's Talk
                             </span>
@@ -728,8 +728,8 @@
                     style="color: #003afa;">brand like many
                     others in</span> <br /> the past!</h2>
         </div>
-        <div class="container text-center pt-4 ">
-            <div class="row row1 row-cols-7" data-aos="fade-up" data-aos-once="true">
+        <div class="collab_brand_section container text-center pt-4 ">
+            <!-- <div class="row row1 row-cols-7" data-aos="fade-up" data-aos-once="true">
                 <div class="col"><img src="image/brand_img/brand-1.svg" alt=""></div>
                 <div class="col"><img src="image/brand_img/brand-2.svg" alt=""></div>
                 <div class="col"><img src="image/brand_img/brand-3.svg" alt=""></div>
@@ -746,7 +746,21 @@
                 <div class="col"><img src="image/brand_img/brand-12.svg" alt=""></div>
                 <div class="col"><img src="image/brand_img/brand-13.svg" alt=""></div>
                 <div class="col"><img src="image/brand_img/brand-14.svg" alt=""></div>
-            </div>
+            </div> -->
+            <div class="col"><img src="image/brand_img/brand-1.svg" alt=""></div>
+                <div class="collab_brand_img"><img src="image/brand_img/brand-2.svg" alt=""></div>
+                <div class="collab_brand_img"><img src="image/brand_img/brand-3.svg" alt=""></div>
+                <div class="collab_brand_img"><img src="image/brand_img/brand-4.svg" alt=""></div>
+                <div class="collab_brand_img"><img src="image/brand_img/brand-5.svg" alt=""></div>
+                <div class="collab_brand_img"><img src="image/brand_img/brand-6.svg" alt=""></div>
+                <div class="collab_brand_img"><img src="image/brand_img/brand-7.svg" alt=""></div>
+                <div class="collab_brand_img"><img src="image/brand_img/brand-8.svg" alt=""></div>
+                <div class="collab_brand_img"><img src="image/brand_img/brand-9.svg" alt=""></div>
+                <div class="collab_brand_img"><img src="image/brand_img/brand-10.svg" alt=""></div>
+                <div class="collab_brand_img"><img src="image/brand_img/brand-11.svg" alt=""></div>
+                <div class="collab_brand_img"><img src="image/brand_img/brand-12.svg" alt=""></div>
+                <div class="collab_brand_img"><img src="image/brand_img/brand-13.svg" alt=""></div>
+               
         </div>
     </div>
     <!-- /COLLAB BRAND SECTION -->
@@ -884,7 +898,7 @@
 
 
     <!-- WORTH READ SECTION -->
-    <div class="worth_read">
+    <!-- <div class="worth_read">
         <div class="worth_heading ">
             <h3 style="font-size: 5rem;" class="outline ">Worth A Read</h3>
         </div>
@@ -972,7 +986,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- WORTH READ SECTION -->
 
 
@@ -1103,7 +1117,7 @@
     <!-- /FOOTER SECTION -->
 
     <script src="js/slider_tab.js"></script>
-    <script src="js/sidenav.js"></script>
+    <script src="js/sideNav.js"></script>
 
     <!-- BOOTSTRAP JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

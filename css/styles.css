@@ -175,7 +175,7 @@ body{
 
 .video_overlay{
     width: 100%;
-    height: 675px;
+    height: 683px;
     position: absolute;
     top: 0;
     left: 0;
@@ -605,6 +605,15 @@ button{
     background: #f8f8f8;
 }
 
+.collab_brand .collab_brand_section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.collab_brand .collab_brand_section .collab_brand_img{
+    width: 16.6%;
+}
+
 .collab_brand .collab_container{
     max-width: 100%;
     padding: 0 9%;
@@ -635,9 +644,10 @@ button{
     display: flex;
     max-width: 100%;
     width: 100%;
-    top: 30px;
-    position: relative;
-    left: 120px;
+    padding-left: 2rem;
+    /* top: 30px; */
+    /* position: relative;
+    left: 120px; */
 
 }
 
@@ -655,10 +665,13 @@ button{
 
 /* FAQ SECTION CSS */
 .faq_section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: #e3e3ee;
 }
 
-.outline_text{
+.faq__outline_text{
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #a1a1a1;
     text-transform: capitalize;
@@ -667,6 +680,7 @@ button{
     font-family: sans-serif;
     font-weight: 700;
     z-index: 1;
+    padding-left: 2rem;
 }
 
 .faq_line_heading{
@@ -679,10 +693,16 @@ button{
 }
 
 .faq_card_section{
+    /* width: 100%;
+    height: 400px;
+    display: flex;
+    padding: 2rem 2rem; */
     width: 100%;
     height: 400px;
     display: flex;
-    padding: 2rem 2rem;
+    overflow-y: hidden;
+    overflow-x: auto;
+    padding-left: 2rem;
 }
 
 .swiper_slide_card{

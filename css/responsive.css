@@ -34,9 +34,11 @@
     }
     .hero .video{
         width: 100%;
-        display: flex;
+        /* display: flex; */
+        display: none;
         justify-content: flex-start;
         align-items: center;
+
     }
     .hero .video{
         width: 50%;
@@ -56,7 +58,7 @@
     }
     .hero .hero_text__area .hero_text_heading{
         width: 100%;
-        margin-top: -5rem;
+        margin-top: -7rem;
     }
     .hero .hero_text__area .hero_text_heading .hero_heading{
         width: 100%;
@@ -66,7 +68,8 @@
     }
     .hero .hero_text__area .hero_text_heading .hero_heading .gradient_text{
       
-        font-size: 1rem;  
+        font-size: 1.3rem;
+        font-weight: 700;  
         margin-left: 1rem;
         margin-top: 0;
     }
@@ -82,6 +85,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin-bottom: 5rem;
     }
     .hero .hero_text__area .hero_banner_description .paragraph_content{
         width: 100%;
@@ -91,21 +95,22 @@
         align-items: center;
         text-align: center;
         margin-bottom: 2.5rem;
+        padding: 0rem 1rem;
     }
     .hero .hero_text__area .hero_banner_description .paragraph_content .hero_anchor{
         width: 100%;
-        display: none;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-bottom: 10rem;
+        margin-bottom: 1rem;
     }
     .hero .hero_text__area .hero_banner_description .paragraph_content .description_text{
         max-width: 100%;
-        font-size: 0.5rem;
+        font-size: 0.7rem;
         line-height: 1rem;
-        margin-bottom: 7rem;
+        margin-bottom: 1rem;
     }
 
     /* /HERO SECTION */
@@ -203,6 +208,61 @@
 
     /* /BRAND COLLAB SECTION */
 
+    /* AWARDS SECTION */
+    .awards_section{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .awards_head_line{
+        width: 100%;
+    }
+    .awards_head_line .awards_outline{
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .awards_section .awards_content_wrap{
+        width: 100%;
+        padding: 0rem;
+    }
+    .awards_section .awards_content_wrap .awards_text_section{
+        width: 100%;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center !important;
+    }
+
+    .awards_section .awards_content_wrap .awards_text_section .awards_content_area{
+        width: 100% !important;
+        padding: 0.5rem 1rem;
+    }
+
+    .awards_section .awards_content_wrap .awards_text_section .awards_content_area h2{
+        width: 100% !important;
+    }
+
+    .awards_content_area{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem;
+        padding: 0rem;
+
+    }
+
+    .awards__right-section{
+        width: 100%;
+        padding: 0rem 1rem;
+    }
+
+
+
+    /* AWARDS SECTION ENDS HERE */
+
     /* GET SOCIAL SECTION */
    .get_social_section{
     width: 100%;
@@ -222,7 +282,7 @@
    }
    .get_social_section .get_social_container .get_social_head .get_social_subtitle{
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-family: "Montserrat",sans-serif;
     text-align: center;
     padding: 1rem 0rem;
@@ -265,7 +325,6 @@
     }
 
     .footer .footer_main_title{
-     
         font-size: 1.5rem;
         position: absolute;
         left: 3rem;
@@ -360,7 +419,7 @@
 
 }
 
-.strategy_concept.strategy_concept_twocol_row .strategy_right_img_grid{
+.strategy_concept .strategy_concept_twocol_row .strategy_right_img_grid{
     width: 100% ;
     display: flex;
     flex-direction: column;
@@ -373,6 +432,10 @@
     width: 100% ;
     margin: 0rem;
     padding: 0rem;
+}
+
+.strategy_concept .strategy_concept_twocol_row .strategy_right_img_grid .strategy_concept_card.strategy_card_txt{
+    padding: 1rem;
 }
 .strategy_concept .strategy_concept_twocol_row .strategy_right_img_grid .gray_bg{
     width: 100% ;
@@ -404,17 +467,19 @@
     margin-top: 1.5rem;
  }
 
+ /* FAQ CSS STARTS S */
+
  .worth_read{
     width: 100%;
  }
  .worth_read .worth_heading{
     width: 100%;
+    padding-left: 2rem;
  }
 
  .worth_read .worth_heading .outline{
     width: 100%;
     font-size: 2.5rem !important;
-    margin-left: -4rem;
  }
 
  .worth_read .worth_read_section{
@@ -571,9 +636,13 @@
 }
 .currentOpening_section .currentOpening_container{
     width: 100%;
+    padding: 0rem;
 }
 .currentOpening_section .currentOpening_container .currentOpenings_header{
     width: 100%;
+}
+.currentOpening_section .currentOpening_container .currentOpenings_header p{
+    width: 100% !important;
 }
 
 .currentOpening_section .currentOpening_container .currentOpenings_cards_section{

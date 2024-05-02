@@ -82,7 +82,7 @@
                     maximum profit. </p>
             </div>
             <div class="strategy_right_img_grid">
-                <div class="strategy_concept_card">
+                <div class="strategy_concept_card strategy_card_txt">
                     <h3>
                         We Are <span class="primary-col">Different.</span>
                     </h3>
@@ -97,7 +97,7 @@
                     <img class="" alt="" src="https://www.digitalgravity.ae/assets/images/about-us/dual-mobile.webp">
                 </div>
 
-                <div class="strategy_concept_card">
+                <div class="strategy_concept_card strategy_card_txt">
                     <h3 class="">
                         Our <span class="primary-col">Inventive</span> Style </h3>
                     <p class="">
@@ -823,32 +823,22 @@
             <div class="get_social_head">
                 <p class="get_social_title" data-aos="fade-up" data-aos-once="true">GET SOCIAL</p>
                 <h2 class="get_social_subtitle" data-aos="fade-up" data-aos-once="true">Join the conversation</h2>
-                <ul class="d-flex p-0 " data-aos="fade-up" data-aos-once="true">
-                    <!-- <li class="social_item">
-                        <a href="#">
-                            <i class="fa-brands fa-x-twitter"></i>
-                        </a>
-                    </li> -->
+                <ul class="d-flex p-0 " data-aos="fade-up" data-aos-once="true">                   
                     <li class="social_item">
-                        <a class="text-primary" href="https://www.facebook.com/profile.php?id=61558598588235">
+                        <a class="" href="https://www.facebook.com/profile.php?id=61558598588235">
                             <i class="fa-brands fa-facebook-f"></i>
                         </a>
                     </li>
                     <li class="social_item">
-                        <a class="text-danger" href="https://www.instagram.com/jsstechnologiesllc/">
+                        <a class="" href="https://www.instagram.com/jsstechnologiesllc/">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
                     </li>
                     <li class="social_item">
-                        <a class="text-danger" href="https://www.youtube.com/channel/UCvjiQV9lwrhO0cFMPYHWc6A">
+                        <a class="" href="https://www.youtube.com/channel/UCvjiQV9lwrhO0cFMPYHWc6A">
                             <i class="fa-brands fa-youtube"></i>
                         </a>
                     </li>
-                    <!-- <li class="social_item">
-                        <a href="#">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </li> -->
                 </ul>
             </div>
             <div class="getSocial_wrapper getSocial_twocol_row">

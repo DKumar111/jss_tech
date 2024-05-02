@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JSS TECHNOLOGIES</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/careere.css">
-    <link rel="stylesheet" href="css/responsiv.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <!-- AOS CSS CDN -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
