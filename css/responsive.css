@@ -1,0 +1,774 @@
+@media screen and (min-width: 320px) and (max-width: 990px) {
+   
+    .navigation{
+        display: none;
+    }
+    .nav-toggle{
+        display: block;
+    }
+
+    .hero .hero_section_floating_icon{
+        display: none;
+    }
+
+    /* HEADER SECTOIN */
+    .header{
+        width: 100%;
+    }
+    .header .header_container{
+        width: 100%;
+    }
+    .header .header_container .brand_logo{
+        width: 30%;
+    }
+    /* /HEADER SECTOIN */
+
+    /* HERO SECTION */
+
+    .hero{
+        width: 100%;
+    }
+    .hero img{
+        width: 100%;
+        height: 65vh;
+    }
+    .hero .video{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .hero .video{
+        width: 50%;
+    }
+
+    .hero .video_overlay{
+        width: 100%;
+        height: 65vh;
+    }
+
+    .hero .hero_text__area{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero .hero_text__area .hero_text_heading{
+        width: 100%;
+        margin-top: -5rem;
+    }
+    .hero .hero_text__area .hero_text_heading .hero_heading{
+        width: 100%;
+        line-height: 1.5rem;
+        align-items: center;
+        margin-bottom: 10rem;
+    }
+    .hero .hero_text__area .hero_text_heading .hero_heading .gradient_text{
+      
+        font-size: 1rem;  
+        margin-left: 1rem;
+        margin-top: 0;
+    }
+    .hero .hero_text__area .hero_text_heading .hero_heading .hero_sub_text{
+      
+        font-size: 1rem;  
+        margin-left: 1rem;
+        margin-top: 0;
+    }
+    .hero .hero_text__area .hero_banner_description{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .hero .hero_text__area .hero_banner_description .paragraph_content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 2.5rem;
+    }
+    .hero .hero_text__area .hero_banner_description .paragraph_content .hero_anchor{
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 10rem;
+    }
+    .hero .hero_text__area .hero_banner_description .paragraph_content .description_text{
+        max-width: 100%;
+        font-size: 0.5rem;
+        line-height: 1rem;
+        margin-bottom: 7rem;
+    }
+
+    /* /HERO SECTION */
+
+    /* SERVICES SECTION */
+    .services_section{
+        width: 100%;
+    }
+    .services_section .services_left{
+        width: 100%;
+        background-color: rgb(1, 6, 46);
+    }
+    .services_section .services_left .services_slider{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .services_section .services_left .services_slider .buttons{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .services_section .services_left .services_slider .buttons button{
+        width: 100%;
+        align-items: flex-start;
+        padding-top: 0rem;
+        font-size: 0.9rem;
+        font-family: "Montserrat",sans-serif;
+        border-bottom: 1px solid black;
+    }
+    .services_section .services_left .services_heading h1{
+        
+        font-size: 2rem;
+        color: black ;
+        margin-left: -3rem;
+    }
+    .services_section .services_right{
+        display: none !important;
+    }
+    /* /SERVICES SECTION */
+
+    /* OUR WORK SESCTION */
+    .our_work_section{
+        width: 100%;
+    }
+     .our_work_section .work_heading .work_text{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+     .our_work_section .work_heading .work_card_section{
+        margin-left: 0rem;
+        
+    }
+     .our_work_section .work_heading .work_card_section .work_card .card_img img{
+        width: 300px ;
+        height: 250px ;
+    }
+
+
+    /* /OUR WORK SESCTION */
+
+    /* BRAND COLLAB SECTION */
+
+    .collab_brand{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .collab_brand .brand_container{
+        width: 100%;
+    }
+    .collab_brand .brand_container .collab_title{
+        margin: 1rem 1rem;
+        width: 100%;
+    }
+
+    .collab_brand .container{
+        width: 100%;
+    }
+    .collab_brand .container .row1{
+        width: 100%;
+    }
+    .collab_brand .container .row1 .col{
+        width: 14.2%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .collab_brand .container .row1 .col img{
+        width: 100%;
+    }
+
+    /* /BRAND COLLAB SECTION */
+
+    /* GET SOCIAL SECTION */
+   .get_social_section{
+    width: 100%;
+    margin-top: 3rem;
+   }
+
+   .get_social_section .get_social_container{
+    max-width: 100%;
+    padding: 0rem 0rem;
+   }
+   .get_social_section .get_social_container .get_social_head{
+    width: 100%;
+   }
+   .get_social_section .get_social_container .get_social_head .get_social_title{
+    width: 100%;
+    text-align: center;
+   }
+   .get_social_section .get_social_container .get_social_head .get_social_subtitle{
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: "Montserrat",sans-serif;
+    text-align: center;
+    padding: 1rem 0rem;
+   }
+
+   .get_social_section .get_social_container .getSocial_wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+   }
+
+   .get_social_section .get_social_container .getSocial_wrapper .getSocial_card{
+    width: 100%;
+   }
+
+   .get_social_section .get_social_container .getSocial_wrapper .getSocial__card{
+    width: 50%;
+   }
+    /* /GET SOCIAL SECTION */
+
+    /* FOOTER SECTION */
+    .footer{
+     
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer .footer_left{
+     width: 100%;
+        background-color: rgb(56, 56, 56);
+        padding: 0rem 2rem;
+
+    }
+
+    .footer .footer_right{
+        display: none;
+    }
+
+    .footer .footer_main_title{
+     
+        font-size: 1.5rem;
+        position: absolute;
+        left: 3rem;
+    }
+
+    .footer .footer_left .footer_left_content{
+        position: absolute;
+        left: 1rem;
+        top: 7rem;
+    }
+    .footer .footer_left .footer_address_section{
+        position: absolute;
+        left: -3rem;
+        top: 15rem;
+    }
+    /* /FOOTER SECTION */
+
+
+/* CSS FOR ABOUT PAGE */
+.aboutUs_hero{
+    width: 100%;
+}
+.aboutUs_hero .about_container{
+    width: 100%;
+}
+.aboutUs_hero .about_container .twocol__row{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.aboutUs_hero .about_container .twocol__row .col-36{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.aboutUs_hero .about_container .twocol__row .col-36 .generic--head__head{
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.aboutUs_hero .about_container .twocol__row .col-30{
+    width: 100%;
+    
+}
+
+/* STRATEGY SECTION */
+.strategy_concept{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.strategy_concept .strategy_concept_twocol_row{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+.strategy_concept .strategy_concept_twocol_row .strategy_left_img{ 
+    width: 100%;
+}
+.strategy_concept .strategy_concept_twocol_row .strategy_left_img img{ 
+    width: 100%;
+}
+.strategy_concept .strategy_concept_twocol_row .strategy_right_heading{ 
+    width: 100%;
+}
+.strategy_concept .strategy_concept_twocol_row .strategy_right_heading h3{ 
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.strategy_concept  .strategy_concept_twocol_row .strategy_left_heading{
+    width: 100% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem;
+    padding: 1rem;
+    
+}
+.strategy_concept  .strategy_concept_twocol_row .strategy_left_heading .strategy__headign{
+    width: 100%;
+    font-size: 1rem;
+
+}
+
+.strategy_concept.strategy_concept_twocol_row .strategy_right_img_grid{
+    width: 100% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.strategy_concept .strategy_concept_twocol_row .strategy_right_img_grid .strategy_concept_card{
+    width: 100% ;
+    margin: 0rem;
+    padding: 0rem;
+}
+.strategy_concept .strategy_concept_twocol_row .strategy_right_img_grid .gray_bg{
+    width: 100% ;
+    margin: 0rem;
+    padding: 0rem;
+}
+/* /STRATEGY SECTION */
+
+ /* FUTURISTIC TECHNOLOGY */
+ .futuristic_head{
+    font-size: 1.5rem;
+ }
+
+ .futuristic_technology_list li {
+    width: 3em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .futuristic_technology_list li img{
+    width: 1.5em;
+    height: 1.5em;
+ }
+
+ .experties_outline_text{
+    width: 100%;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+ }
+
+ .worth_read{
+    width: 100%;
+ }
+ .worth_read .worth_heading{
+    width: 100%;
+ }
+
+ .worth_read .worth_heading .outline{
+    width: 100%;
+    font-size: 2.5rem !important;
+    margin-left: -4rem;
+ }
+
+ .worth_read .worth_read_section{
+    width: 100%;
+ }
+ .worth_read .worth_read_section .worth_read_card{
+    width: 100%;
+ }
+ /* /FUTURISTIC TECHNOLOGY */
+
+/* CSS FOR ABOUT PAGE ENDS HERE*/
+
+/* CSS FOR SERVICES PAGE */
+
+.services_hero{
+    width: 100%;
+    height: 100vh;
+}
+.services_hero .services_hero_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem;
+    
+}
+.services_hero .services_hero_container .services_hero_head{
+    width: 100%;
+}
+.services_hero .services_hero_container .services_hero_head .services_head__head{
+    width: 100%;
+    padding: 0rem 0rem;
+}
+
+.services_hero .services_hero_container .service_hero_form_section{
+    width: 100%;
+    padding: 1rem;
+}
+
+.services_hero .services_hero_bgImg{
+    height: 45rem;
+}
+
+.service_help-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 8rem;
+}
+.service_help-section .service_help_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service_help-section .service_help_container .service_help_head{
+    width: 100%;
+}
+
+.service_help-section .service_help_container .service_help_card_wrapper{
+    width: 100% ;
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);  */
+    margin: 0rem auto;
+}
+.service_help-section .service_help_container .service_help_card_wrappe .service_card{
+    width: 50%;
+}
+ .service_card-title{
+    font-size: 0.5rem;
+}
+
+.service_card_para{
+    font-size: 0.5rem;
+}
+.service_help-section .service_help_container .service_help_card_wrappe .service_card .card_img{
+    width: 100%;
+}
+.service_help-section .service_help_container .service_help_card_wrappe .service_card .card_img img{
+    width: 100%;
+}
+
+
+.service_help-section .service_help_container .service_help_head .service_head_title{
+    font-size: 1.8rem;
+}
+
+/* CSS FOR SERVICES PAGE ENDS HERE */
+
+/* CSS FOR BLOG PAGE STARTS HERE */
+.case_studies{
+    width: 100%;
+}
+.case_studies .case-studies__tabs-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.case_studies .case-studies__tabs-wrapper .button{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0.5rem 0.8rem;
+
+}
+
+.case_studies .blog-wrapper{
+    width: 100%;
+}
+.case_studies .blog-wrapper .blog_wrapper_container{
+    width: 100%;
+}
+.case_studies .blog-wrapper .blog_wrapper_container .twocolrow{
+    width: 100%;
+}
+.case_studies .blog-wrapper .blog_wrapper_container .twocolrow .card{
+    width: 100%;
+}
+
+.blogSlider_section{
+    width: 100%;
+}
+.blogSlider_section .blogSlider_container{
+    width: 100%;
+}
+.blogSlider_section .blogSlider_container .card{
+    width: 100%;
+}
+.blogSlider_section .blogSlider_container .card img{
+    width: 100%;
+}
+/* CSS FOR BLOG PAGE ENDS HERE */
+
+/* CSS FOR CAREERS SECTION STARTS HERE */
+.internship__section{
+    width: 100%;
+}
+.internship__section .internship_inner_sec{
+    width: 100%;
+}
+.internship__section .internship_inner_sec .internship_heading{
+    width: 100%;
+    padding: 1rem;
+}
+
+.currentOpening_section{
+    width: 100%;
+}
+.currentOpening_section .currentOpening_container{
+    width: 100%;
+}
+.currentOpening_section .currentOpening_container .currentOpenings_header{
+    width: 100%;
+}
+
+.currentOpening_section .currentOpening_container .currentOpenings_cards_section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem;
+}
+.currentOpening_section .currentOpening_container .currentOpenings_cards_section .currentOpenings_card{
+    width: 100%;
+}
+
+/* CSS FOR CULTURE SESCTION */
+.culture_section{
+    width: 100%;
+}
+.culture_section .culture_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.culture_section .culture_container .culture_leftSection{
+    width: 100%;
+}
+.culture_section .culture_container .culture_leftSection .culture_line_heading{
+    width: 100%;
+    margin-left: 0;
+    padding-left: 3rem;
+}
+.culture_section .culture_container .culture_leftSection .culture_line_heading .culture_outline_text{
+    width: 100%;
+    font-size: 2rem;
+}
+
+.culture_section .culture_container .culture_leftSection .culture_imgWrapper{
+    width: 100%;
+    margin-top: 0rem;
+    padding: 3rem;
+}
+
+.culture_section .culture_container .culture_leftSection .culture_play_btn{
+    width: 20%;
+}
+.culture_section .culture_container .culture_leftSection .culture_play_btn img{
+    width: 100%;
+}
+
+.culture_section .culture_container .culture_rightSection{
+    width: 100%;
+}
+.culture_section .culture_container .culture_rightSection .culture_rightsec_wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.culture_section .culture_container .culture_rightSection .culture_rightsec_wrapper .culture_img_wrapper{
+    width: 50%;
+}
+.culture_section .culture_container .culture_rightSection .culture_rightsec_wrapper .culture_img_wrapper img{
+    width: 100%;
+}
+/* /CSS FOR CULTURE SESCTION */
+
+/* CSS FOR HAPPY CLIENTS SECTION */
+.happyemployee_section{
+    width: 100%;
+}
+.happyemployee_section .happyemployee_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 0rem;
+}
+.happyemployee_section .happyemployee_container .happyemployee_left_section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.happyemployee_section .happyemployee_container .happyemployee_left_section .happyemployee_title{
+    width: 100%;
+}
+.happyemployee_section .happyemployee_container .happyemployee_left_section .happyemployee_title .happyemployee_heading{
+    width: 100%;
+    padding-left: 1rem;
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    font-family: "Montserrat", sans-serif;
+}
+.happyemployee_section .happyemployee_container .happyemployee_left_section .happyemployee_title .happyemployee_heading .employeesSays{
+    font-size: 1.6rem;
+    letter-spacing: 0.2rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.happyemployee_section .happyemployee_container .happyemployee_left_section .happyemployee_img_wrapper{
+    width: 100%;
+}
+.happyemployee_section .happyemployee_container .happyemployee_left_section .happyemployee_img_wrapper img{
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+.happyemployee_section .happyemployee_container .happyemployee_right_section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem;
+}
+.happyemployee_section .happyemployee_container .happyemployee_right_section .happyCard_slide_container{
+    width: 100%;
+}
+.happyemployee_section .happyemployee_container .happyemployee_right_section .happyCard_slide_container .happyCard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.happyemployee_section .happyemployee_container .happyemployee_right_section .happyCard_slide_container .happyCard .card_img{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.happyemployee_section .happyemployee_container .happyemployee_right_section 
+.happyCard_slide_container .happyCard .card_img img{
+    width: 60%;
+    margin-top: 25rem;
+}
+/* /CSS FOR HAPPY CLIENTS SECTION */
+/* CSS FOR CAREERS SECTION ENDS HERE */
+
+/* CSS FOR CASE STUDY STARTS HERE  */
+.study_case_grid-layout{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0rem 1rem;
+}
+.study_case_grid-layout .caseStudy_card{
+    width: 100%;
+    margin: 0rem 1rem;
+}
+
+.right_heading{
+    width: 100%;
+    display: none;
+}
+
+/* ANOTHER CARD SECTION */
+.three-row-layout{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 6rem 0;
+}
+.three-row-layout .three-row-card{
+    width: 100%;
+}
+
+/* /ANOTHER CARD SECTION */
+
+/* CSS FOR CASE STUDY ENDS HERE  */
+
+/* CSS FOR FLOATING SOCIAL ICONS */
+
+.floating_icon{
+    display: flex;
+    position: fixed;
+    bottom: 2.5em;
+    left: 2em;
+    flex-direction: column;
+    z-index: 9;
+}
+
+.floating_btn{
+    width: 4rem;
+    height: 4rem;
+    bottom: 55px;
+    left: 82vw;
+    position: fixed;
+    z-index: 1000;
+    border: 0px;
+    color: white;
+    border-radius: 50%;
+    background-color: #003afa;
+}
+/* CSS FOR FLOATING SOCIAL ICONS ENDS HERE */
+
+}

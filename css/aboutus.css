@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* STRATEGY CONCEPT CSS */
+
+.strategy_concept{
+    margin-top: -3rem;
+}
+
+
+.strategy_concept_twocol_row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 3rem 0;
+}
+
+.strategy_left_img{
+    width: 50%;
+}
+.strategy_left_img img{
+    width: 100%;
+}
+
+.strategy_outline_text{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #0313f5;
+    font-size: 3rem;
+}
+
+.strategy_right_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.strategy_left_heading{
+    margin-top: 6rem;
+    width: 50%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(0, 0, 0, .1);
+    padding: 6.25em 3.125em 3.125em 10.625em;
+}
+
+.strategy_right_img_grid{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: -6px -4px 18px 1px rgba(0, 0, 0, .11);
+}
+
+.strategy_concept_card{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+.strategy_concept_card.gray_bg{
+    background-color: #0099ff;
+}
+.strategy_concept_card.primary_bg{
+    background-color: #0300ce;
+}
+
+
+/* /STRATEGY CONCEPT CSS */
+
+/* FUTURISTIC TECHOLOGY CSS */
+.futuristic_technology{
+    padding: 3rem 0;
+    background: #0a0014;
+}
+
+.futuristic_container{
+    max-width: 100%;
+    padding: 0 9%;
+    text-align: center;
+}
+
+.futuristic-technology__technology-logos{
+    width: 100%;
+}
+
+.futuristic_head{
+    color: white;
+    font-size: 27px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.futuristic_para{
+    color: #FFFFFF;
+    font-size: 13px;
+    font-family: "Montserrat",sans-serif;
+    margin-bottom: 57px;
+}
+
+.futuristic_technology_list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.futuristic_technology_list li{
+    background: #fff;
+    width: 6em;
+    height: 6em;
+    padding: 1.5em;
+    border-radius: 25%;
+    margin: .75em;
+}
+/* /FUTURISTIC TECHNOLOGY CSS */
+
+/* SERVICES SECTION CSS */
+.our-services_section{
+    padding: 4rem 1rem;
+
+}
+
+.our_services_slider{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    overflow: hidden;
+    transition-property: transform;
+    box-sizing: content-box;
+}
+
+.our_services_cardSlider{
+    position: relative;
+    width: 30em;
+    padding: 1rem;
+}
+.our_services_cardSlider h4{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    font-size: 0.9rem;
+    color: black;
+    font-weight: 700;
+    font-family: "Montserrat",sans-serif;
+}
+.our_services_cardSlider img{
+    width: 200px;
+    height: 200px;
+}
+/* /SERVICES SECTION CSS */
+
+/* EXPERTIES SECTION CSS */
+.experties_section{
+    background: #1505fd;
+    padding-bottom: 5rem;
+    margin-bottom: 3rem;
+}
+
+.tablink{
+    color: white;
+}
+
+.grid li a{
+    color: white;
+}
+
+.experties_line_heading{
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    transform: translate3d(82.7815px, 0px, 0px);
+}
+
+.experties_outline_text{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #b9b9ba;
+    text-transform: capitalize;
+    word-break: break-word;
+    font-size: 4em;
+    font-family: sans-serif;
+    font-weight: 700;
+    z-index: 1;
+}
+
+.experties_tab_wrapper{
+    padding: 3rem;
+}
+
+.experties_twocol_row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+/* /EXPERTIES SECTION CSS */

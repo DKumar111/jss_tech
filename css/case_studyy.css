@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.study_case_grid-layout{
+    width: 100%;
+    padding: 0rem 0;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.caseStudy_card{
+    width: 35%;
+    margin-bottom: -5rem;
+    margin-right: 4rem;
+
+}
+
+.caseStudy_second_card{
+    margin-top: 6rem;
+}
+
+.case_study_heading{
+    font-size: 1rem;
+    color: rgb(31, 30, 30);
+    padding-top: 0.8rem;
+}
+
+.case_study_subheading{
+    font-size: 0.9rem;
+    color: gray;
+    font-family: "Montserrat", sans-serif;
+}
+
+.view_case-study{
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(27, 26, 26);
+    font-weight: 500;
+}
+
+.case_study_arrow{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #e3204a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.case_study_outline_text{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #1003c2;
+    text-transform: capitalize;
+    word-break: break-word;
+    font-size: 5em;
+    font-family: sans-serif;
+    font-weight: 700;
+    z-index: 1;
+}
+
+.three-row-layout{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 5rem;
+    margin-left: 9rem;
+    margin-right: 8rem;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.three-row-card{
+    width: 100%;
+    height: 600px;
+    padding: 0 0.8rem;
+    margin-bottom: -12rem;
+}
+.three-row-card img{
+    width: 100%;
+    height: 70%;
+}
+
+.second_card_col{
+    margin-top: 7rem;
+}
+
+.three-card_desc{
+
+}
+
+.three-card-title{
+    font-size: 1rem;
+    margin-top: 0.4rem;
+    color: rgb(29, 29, 29);
+}
+
+.three-card_subtitle{
+    font-size: 0.7rem;
+    color: gray;
+}
+
+.three_card_arrow{
+    width: 2rem;
+    height: 2rem;
+    background-color: #e3204a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three_card_viewCase_study{
+    font-size: 1rem;
+    color: rgb(36, 35, 35);
+    font-weight: 600;
+}
