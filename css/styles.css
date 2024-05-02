@@ -635,6 +635,10 @@ button{
     height: 575px;
 }
 
+.awards_txt-area{
+    width: 50%;
+}
+
 .awards_content_wrap{
     max-width: 100%;
     padding: 0 9%;
@@ -759,6 +763,9 @@ button{
 
 .worth_read .worth_heading{
     width: 100%;
+}
+.worth_read .worth_heading h3{
+   
 }
 
 .worth_read .worth_read_section{

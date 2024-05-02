@@ -59,7 +59,8 @@
             <div class="hero_banner_description">
                 <div class="paragraph_content">
                     <p class="description_text">
-                        You have an idea, we have the talent and resources to turn it into a reality. Digital Gravity is a
+                        You have an idea, we have the talent and resources to turn it into a reality. Digital Gravity is
+                        a
                         globally recognized digital agency elevating brands through ground-breaking user experience and
                         disruptive digital products.
                     </p>
@@ -726,56 +727,39 @@
         <div class="brand_container">
             <h2 data-aos="fade-up" data-aos-once="true" class="collab_title">We are ready to uplift your <br /> <span
                     style="color: #003afa;">brand like many
-                    others in</span> <br /> the past!</h2>
+                    others in</span> <br /> the past!
+                </h2>
         </div>
         <div class="collab_brand_section container text-center pt-4 ">
-            <!-- <div class="row row1 row-cols-7" data-aos="fade-up" data-aos-once="true">
-                <div class="col"><img src="image/brand_img/brand-1.svg" alt=""></div>
-                <div class="col"><img src="image/brand_img/brand-2.svg" alt=""></div>
-                <div class="col"><img src="image/brand_img/brand-3.svg" alt=""></div>
-                <div class="col"><img src="image/brand_img/brand-4.svg" alt=""></div>
-                <div class="col"><img src="image/brand_img/brand-5.svg" alt=""></div>
-                <div class="col"><img src="image/brand_img/brand-6.svg" alt=""></div>
-                <div class="col"><img src="image/brand_img/brand-7.svg" alt=""></div>
-            </div>
-            <div class="row row-cols-7" data-aos="fade-up" data-aos-once="true">
-                <div class="col"><img src="image/brand_img/brand-8.svg" alt=""></div>
-                <div class="col"><img src="image/brand_img/brand-9.svg" alt=""></div>
-                <div class="col"><img src="image/brand_img/brand-10.svg" alt=""></div>
-                <div class="col"><img src="image/brand_img/brand-11.svg" alt=""></div>
-                <div class="col"><img src="image/brand_img/brand-12.svg" alt=""></div>
-                <div class="col"><img src="image/brand_img/brand-13.svg" alt=""></div>
-                <div class="col"><img src="image/brand_img/brand-14.svg" alt=""></div>
-            </div> -->
             <div class="col"><img src="image/brand_img/brand-1.svg" alt=""></div>
-                <div class="collab_brand_img"><img src="image/brand_img/brand-2.svg" alt=""></div>
-                <div class="collab_brand_img"><img src="image/brand_img/brand-3.svg" alt=""></div>
-                <div class="collab_brand_img"><img src="image/brand_img/brand-4.svg" alt=""></div>
-                <div class="collab_brand_img"><img src="image/brand_img/brand-5.svg" alt=""></div>
-                <div class="collab_brand_img"><img src="image/brand_img/brand-6.svg" alt=""></div>
-                <div class="collab_brand_img"><img src="image/brand_img/brand-7.svg" alt=""></div>
-                <div class="collab_brand_img"><img src="image/brand_img/brand-8.svg" alt=""></div>
-                <div class="collab_brand_img"><img src="image/brand_img/brand-9.svg" alt=""></div>
-                <div class="collab_brand_img"><img src="image/brand_img/brand-10.svg" alt=""></div>
-                <div class="collab_brand_img"><img src="image/brand_img/brand-11.svg" alt=""></div>
-                <div class="collab_brand_img"><img src="image/brand_img/brand-12.svg" alt=""></div>
-                <div class="collab_brand_img"><img src="image/brand_img/brand-13.svg" alt=""></div>
-               
+            <div class="collab_brand_img"><img src="image/brand_img/brand-2.svg" alt=""></div>
+            <div class="collab_brand_img"><img src="image/brand_img/brand-3.svg" alt=""></div>
+            <div class="collab_brand_img"><img src="image/brand_img/brand-4.svg" alt=""></div>
+            <div class="collab_brand_img"><img src="image/brand_img/brand-5.svg" alt=""></div>
+            <div class="collab_brand_img"><img src="image/brand_img/brand-6.svg" alt=""></div>
+            <div class="collab_brand_img"><img src="image/brand_img/brand-7.svg" alt=""></div>
+            <div class="collab_brand_img"><img src="image/brand_img/brand-8.svg" alt=""></div>
+            <div class="collab_brand_img"><img src="image/brand_img/brand-9.svg" alt=""></div>
+            <div class="collab_brand_img"><img src="image/brand_img/brand-10.svg" alt=""></div>
+            <div class="collab_brand_img"><img src="image/brand_img/brand-11.svg" alt=""></div>
+            <div class="collab_brand_img"><img src="image/brand_img/brand-12.svg" alt=""></div>
+            <div class="collab_brand_img"><img src="image/brand_img/brand-13.svg" alt=""></div>
+
         </div>
     </div>
     <!-- /COLLAB BRAND SECTION -->
 
     <!-- AWARDS SECTION -->
-    <!-- <div class=" position-relative  ">
+    <div class="awards_section position-relative  ">
         <div class="awards_bg_img position-absolute w-100 h-100 top-0 start-0 z-n1 ">
             <img width="100%" height="100%" src="image/awards_bg.webp" alt="">
         </div>
         <div class="awards_head_line " data-aos="slide-right" data-aos-once="true">
             <h1 class="awards_outline my-4 ">Awards</h1>
         </div>
-        <div class="awards_content_wrap mt-5 ">
-            <div class="d-flex align-items-end  w-100 ">
-                <div class="w-50 " data-aos="fade-up" data-aos-offset="200" data-aos-duration="900"
+        <div class="awards_content_wrap  ">
+            <div class="awards_content_area d-flex   w-100 ">
+                <div class="awards_txt-area  " data-aos="fade-up" data-aos-offset="200" data-aos-duration="900"
                     data-aos-once="true">
                     <h2>
                         Digital Gravity, a
@@ -788,7 +772,7 @@
                         responsive, scalable, and robust web applications with a touch of finesse.
                     </p>
                 </div>
-                <div class="h-100  d-flex ">
+                <div class="awards__right-section h-100  d-flex ">
                     <div class="d-flex flex-wrap w-100 ">
                         <div class="w-25 h-100 p-2 bg-white   ">
                             <a href="#">
@@ -814,7 +798,7 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- /AWARDS SECTION -->
 
     <!-- FAQ SECTIOIN -->
@@ -898,8 +882,8 @@
 
 
     <!-- WORTH READ SECTION -->
-    <!-- <div class="worth_read">
-        <div class="worth_heading ">
+    <div class="worth_read">
+        <div class="worth_heading" data-aos="slide-right" data-aos-once="true">
             <h3 style="font-size: 5rem;" class="outline ">Worth A Read</h3>
         </div>
         <div class="worth_read_section">
@@ -986,7 +970,7 @@
                 </a>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- WORTH READ SECTION -->
 
 

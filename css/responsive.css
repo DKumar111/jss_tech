@@ -185,8 +185,11 @@
         width: 100%;
     }
     .collab_brand .brand_container .collab_title{
-        margin: 1rem 1rem;
+        margin: 0rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
         width: 100%;
+        font-size: 1rem;
     }
 
     .collab_brand .container{
@@ -225,6 +228,7 @@
     .awards_section .awards_content_wrap{
         width: 100%;
         padding: 0rem;
+
     }
     .awards_section .awards_content_wrap .awards_text_section{
         width: 100%;
@@ -234,10 +238,7 @@
         align-items: center !important;
     }
 
-    .awards_section .awards_content_wrap .awards_text_section .awards_content_area{
-        width: 100% !important;
-        padding: 0.5rem 1rem;
-    }
+  
 
     .awards_section .awards_content_wrap .awards_text_section .awards_content_area h2{
         width: 100% !important;
@@ -252,6 +253,11 @@
         margin: 0rem;
         padding: 0rem;
 
+    }
+
+    .awards_section .awards_content_wrap .awards_content_area .awards_txt-area{
+        width: 100% !important;
+        padding: 0rem 1rem;
     }
 
     .awards__right-section{
