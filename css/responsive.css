@@ -14,6 +14,7 @@
     /* HEADER SECTOIN */
     .header{
         width: 100%;
+        position: ;
     }
     .header .header_container{
         width: 100%;
@@ -27,27 +28,29 @@
 
     .hero{
         width: 100%;
+        height: 65vh;
     }
     .hero img{
         width: 100%;
         height: 65vh;
+        /* display: none; */
     }
     .hero .video{
-        width: 100%;
-        /* display: flex; */
-        display: none;
-        justify-content: flex-start;
+        height: 364px;
+        display: flex;
+        justify-content: center;
         align-items: center;
+        overflow: hidden;
+    }
 
-    }
-    .hero .video{
-        width: 50%;
-    }
+   .hero .video video{
+   }
 
     .hero .video_overlay{
         width: 100%;
-        height: 65vh;
+        height: 70vh;
     }
+
 
     .hero .hero_text__area{
         width: 100%;
@@ -321,9 +324,14 @@
 
     .footer .footer_left{
      width: 100%;
-        background-color: rgb(56, 56, 56);
-        padding: 0rem 2rem;
+     background-color: rgb(56, 56, 56);
+     padding: 0rem 0rem;
 
+    }
+
+    .footer_left_para{
+        padding-right: 0.5rem;
+        font-size: 1rem;
     }
 
     .footer .footer_right{
@@ -343,8 +351,13 @@
     }
     .footer .footer_left .footer_address_section{
         position: absolute;
-        left: -3rem;
+        left: 1rem;
         top: 15rem;
+        margin: 0rem;
+        padding-right: 0.2rem;
+    }
+    .footer .footer_left .footer_address_section .address{
+        font-size: 1rem;
     }
     /* /FOOTER SECTION */
 
@@ -588,13 +601,14 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    padding: 0 1rem;
     
 }
 .case_studies .case-studies__tabs-wrapper .button{
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    margin: 0.5rem 0.8rem;
+    margin: 0.5rem 0;
 
 }
 

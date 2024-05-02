@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JSS TECHNOLOGIES</title>
 
-    <link rel="stylesheet" href="css/styles.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
     <link rel="stylesheet" href="css/responsive.css" type="text/css" media="all" />
 
     <!-- AOS CSS CDN -->
@@ -1102,6 +1102,8 @@
 
     <script src="js/slider_tab.js"></script>
     <script src="js/sideNav.js"></script>
+    <script src="js/activeClass.js"></script>  
+    <script src="js/removeNav.js"></script>
 
     <!-- BOOTSTRAP JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

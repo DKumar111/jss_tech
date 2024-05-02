@@ -44,6 +44,3 @@ worthReadSection.addEventListener("wheel", (e) =>{
 
 //WORTH READ CARD SLIDE USING WHEEL
 
-// MOBILE VIEW NAVIGATION
-
-// MOBILE VIEW NAVIGATION JS ENDS HERE

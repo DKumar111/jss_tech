@@ -1,5 +1,5 @@
  <!-- HEADER START HERE -->
- <div class="container-fluid m-0 p-0   header">
+ <div class="container-fluid m-0 p-0 header" id="header"> 
      <div class="header_container">
          <div class="brand_logo">
              <a class="brand_logo_anchor" href="index.php">
@@ -41,13 +41,13 @@
          </div>
          <!-- MOBILE NAVIGATION -->
          <div class="mobileSide_nav" id="mobile_side_nav">
-         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-         <a href="index.php">Home</a>
-         <a href="about.php">About</a>
-         <a href="services.php">Services</a>
-         <a href="case_study.php">Case Studies</a>
-         <a href="careers.php">Careers</a>
-         <a href="blog.php">Blog</a>
+             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+             <a class="nav_btn active" href="index.php">Home</a>
+             <a class="nav_btn " href="about.php">About</a>
+             <a class="nav_btn " href="services.php">Services</a>
+             <a class="nav_btn " href="case_study.php">Case Studies</a>
+             <a class="nav_btn " href="careers.php">Careers</a>
+             <a class="nav_btn " href="blog.php">Blog</a>
 
          </div>
          <!-- /MOBILE NAVIGATION -->
