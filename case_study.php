@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/case_studyy.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/responsiv.css">
 
      <!-- AOS CSS CDN -->
      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />

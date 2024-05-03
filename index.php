@@ -7,7 +7,7 @@
     <title>JSS TECHNOLOGIES</title>
 
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="css/responsive.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/responsiv.css" type="text/css" media="all" />
 
     <!-- AOS CSS CDN -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -1100,10 +1100,7 @@
 
     <!-- /FOOTER SECTION -->
 
-    <script src="js/slider_tab.js"></script>
-    <script src="js/sideNav.js"></script>
-    <script src="js/activeClass.js"></script>  
-    <script src="js/removeNav.js"></script>
+  
 
     <!-- BOOTSTRAP JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -1121,7 +1118,11 @@
     });
     </script>
 
-
+    <script src="js/slider_tab.js"></script>
+    <script src="js/sideNav.js"></script>
+    <script src="js/activeClass.js"></script>  
+    <script src="js/removeNav.js"></script>
+    <script src="js/FooterDropdown.js"></script>
 </body>
 
 </html>
