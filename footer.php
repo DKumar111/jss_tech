@@ -49,8 +49,8 @@
                         <li class="list-unstyled " ><a class="footer_anchor_items text-decoration-none text-white " href="">Terms & Conditions</a></li>
                         <li class="list-unstyled " ><a class="footer_anchor_items text-decoration-none text-white " href="">Privacy Policy</a></li>
                     </ul>
-                </div>
-                <div class="toggle_footer_btn">
+                </div> -->
+             <!--- <div class="toggle_footer_btn">
                     <p class="toggle_para">Web Solutions</p>
                     <ul class="toggle_quick_links">
                         <li class="list-unstyled "><a class="footer_anchor_items text-decoration-none text-white " href="">Web Development</a></li>
@@ -74,7 +74,6 @@
                         <li class="list-unstyled "><a class="footer_anchor_items text-decoration-none text-white " href="">Email Marketing</a></li>
                     </ul>
                 </div> -->
-             
          </div>
      </div>
      <div class="footer_right">
@@ -83,62 +82,63 @@
                  <p class="footer_right_p text-white ms-4 ">overview</p>
                  <ul>
                      <li class="list-unstyled "><a class="footer_anchor_items text-decoration-none text-white "
-                             href="">About Us</a></li>
+                             href="about.php">About Us</a></li>
                      <li class="list-unstyled "><a class="footer_anchor_items text-decoration-none text-white "
-                             href="">Services</a></li>
+                             href="services.php">Services</a></li>
                      <li class="list-unstyled "><a class="footer_anchor_items text-decoration-none text-white "
-                             href="">Case Studies</a></li>
+                             href="case-study.php">Case Studies</a></li>
                      <li class="list-unstyled "><a class="footer_anchor_items text-decoration-none text-white "
                              href="">Partners</a></li>
                      <li class="list-unstyled "><a class="footer_anchor_items text-decoration-none text-white "
-                             href="">Blog</a></li>
+                             href="blog.php">Blog</a></li>
                      <li class="list-unstyled "><a class="footer_anchor_items text-decoration-none text-white "
-                             href="">Terms & Conditions</a></li>
+                             href="terms_condition.php">Terms & Conditions</a></li>
                      <li class="list-unstyled "><a class="footer_anchor_items text-decoration-none text-white "
-                             href="">Privacy Policy</a></li>
+                             href="privacy_policy.php">Privacy Policy</a></li>
                  </ul>
              </div>
              <div class="pe-4 d-flex flex-column justify-content-end   align-items-start ">
                  <p class="footer_right_p text-white ms-4">Web Solutions</p>
                  <ul>
                      <li class="list-unstyled "><a class="footer_anchor_items text-decoration-none text-white "
-                             href="">Web Development</a></li>
+                             href="query.php?text=Web Development">Web Development</a></li>
                      <li class="list-unstyled "><a class="footer_anchor_items text-decoration-none text-white "
-                             href="">UI/UX Design</a></li>
+                             href="query.php?text=UI/UX Design">UI/UX Design</a></li>
                      <li class="list-unstyled "><a class="footer_anchor_items text-decoration-none text-white "
-                             href="">Digital Marketing Services</a></li>
+                             href="query.php?text=Digital Marketing Services">Digital Marketing Services</a></li>
+                     <li class="list-unstyled ">
+                         <?php $bnc = "Let Digital Gravity be your partner in creating an exceptional brand and identity that will capture attention. Our services include strategic brand positioning, precise segmentation, and targeted marketing to attract the right audience for you. With a blend of innovation and expertise, we can Transform your story, reshape narratives, and help you foster meaningful connections with consumers. Join us on a journey towards redefining how your brand thrives in the digital world."; ?>
+                         <a class="footer_anchor_items text-decoration-none text-white "
+                             href="query.php?text=Branding and Comunication and ">Branding & Comunication</a>
+                          
+                     </li>
                      <li class="list-unstyled "><a class="footer_anchor_items text-decoration-none text-white "
-                             href="">Branding & Comunication</a></li>
+                             href="query.php?text=Ecommerce Web Development">Ecommerce Web Development</a></li>
                      <li class="list-unstyled "><a class="footer_anchor_items text-decoration-none text-white "
-                             href="">Ecommerce Web Development</a></li>
+                             href="query.php?text=Mobile App Developmen">Mobile App Development</a></li>
                      <li class="list-unstyled "><a class="footer_anchor_items text-decoration-none text-white "
-                             href="">Mobile App Development</a></li>
-                     <li class="list-unstyled "><a class="footer_anchor_items text-decoration-none text-white "
-                             href="">IT Resource Outsouring Dubai</a></li>
+                             href="query.php?text=IT Resource Outsouring Dubai">IT Resource Outsouring Dubai</a></li>
                  </ul>
              </div>
              <div class="pe-4 d-flex flex-column justify-content-end   align-items-start ">
                  <p class="footer_right_p text-white ms-4">Digital Marketing Services</p>
                  <ul>
                      <li class="list-unstyled "><a class="footer_anchor_items text-decoration-none text-white "
-                             href="">PPC</a></li>
+                             href="query.php?text=PPC">PPC</a></li>
                      <li class="list-unstyled "><a class="footer_anchor_items text-decoration-none text-white "
-                             href="">SEO</a></li>
+                             href="query.php?text=SEO">SEO</a></li>
                      <li class="list-unstyled "><a class="footer_anchor_items text-decoration-none text-white "
-                             href="">CRO</a></li>
+                             href="query.php?text=CRO">CRO</a></li>
                      <li class="list-unstyled "><a class="footer_anchor_items text-decoration-none text-white "
-                             href="">Content Marketing</a></li>
+                             href="query.php?text=Content Marketing">Content Marketing</a></li>
                      <li class="list-unstyled "><a class="footer_anchor_items text-decoration-none text-white "
-                             href="">Social Media Marketing</a></li>
+                             href="query.php?text='Social Media Marketing'">Social Media Marketing</a></li>
                      <li class="list-unstyled "><a class="footer_anchor_items text-decoration-none text-white "
-                             href="">Social Media Optimization</a></li>
+                             href="query.php?text=Social Media Optimization">Social Media Optimization</a></li>
                      <li class="list-unstyled "><a class="footer_anchor_items text-decoration-none text-white "
-                             href="">Email Marketing</a></li>
+                             href="query.php?text=Email Marketing">Email Marketing</a></li>
                  </ul>
              </div>
          </div>
      </div>
  </footer>
-
-
- <!-- /FOOTER SECTION -->

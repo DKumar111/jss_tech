@@ -1,0 +1,1089 @@
+@charset "UTF-8";@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap);@import url(https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* overflow-x: hidden; */
+}
+
+/* CSS FOR MODAL */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /*Full width*/
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80% !important;
+  }
+
+  .close {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.modal-form-heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-form-heading{
+    width: 100%;
+}
+
+
+/* /CSS FOR MODAL */
+
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3.5rem;
+    margin: 0 auto;
+    z-index: 9;
+    background-color: white;
+    height: 4.3rem;
+
+}
+
+.hero{
+ 
+    width: 100%;
+}
+
+.hero .hero_section_floating_icon{
+    position: absolute;
+    top: 20%;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    z-index: 1;
+    
+}
+
+.hero .hero_section_floating_icon a{
+    width: 2rem;
+    height: 2rem;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid white;
+   overflow: hidden;
+   font-size: 0.7rem;
+   font-weight: 200;
+}
+
+
+.hero img{
+    width: 100%;
+}
+
+.hero_text_heading{
+    position: absolute;
+    top: 41%;
+    right: 5%;
+    z-index: 1;
+}
+
+.hero .hero_text_heading .hero_heading .gradient_text{
+    background: linear-gradient(200deg, #6c06ec, #e3204a 60%);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: gradientAnimation 5s linear infinite;
+    font-size: 4rem;
+}
+
+.hero .hero_text_heading .hero_heading .hero_sub_text{
+    font-size: 4rem;
+}
+
+.hero_text_heading h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 3.7rem;
+}
+
+.hero_banner_description{
+    width: 100%;
+    position: absolute;
+    bottom: 15%;
+    z-index: 1;
+}
+
+.description_text{
+    max-width: 35%;
+    color: rgb(233, 230, 230);
+    margin-bottom: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.hero .hero_banner_description .paragraph_content .hero_anchor .hero_anchor_content span{
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: 600;
+    letter-spacing: 0;
+    margin: 0 .75em 0 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+ .hero_arrow_section{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #e3204a;
+}
+
+.hero_anchor{
+    display: flex;
+}
+
+.hero_anchor_content{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.hero_banner_description .paragraph_content{
+    
+    padding: 0 6em;
+}
+
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.brand_logo{
+    width: 10%;
+    height: 3.5rem;
+    /* background-color: white; */
+ 
+}
+
+.video{
+    width: 100%;
+    height: 109.5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.video video{
+    /* width: 100%; */
+    height: 800px;
+}
+
+.video_overlay{
+    width: 100%;
+    height: 665px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+.brand_logo .brand_logo_anchor img{
+    width: 130%;
+    height: 110%;
+    padding: 0.2rem .9rem;
+    /* background-color: #ffffff; */
+}
+
+.navigation{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: aquamarine; */
+}
+
+.navigation_content{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* STYLE FOR MOBILE SIDE NAV */
+.mobileSide_nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+.mobileSide_nav a{
+    padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  color: #3f3f3f;
+  display: block;
+  transition: 0.3s;
+  border-bottom: 1px solid rgb(77, 77, 77);
+  margin-left: 1rem;
+  }
+
+  .mobileSide_nav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    border-bottom: none;
+  }
+
+  .active {
+    color: rgb(4, 0, 255);
+  }
+/* /STYLE FOR MOBILE SIDE NAV */
+
+.nav-toggle{
+    display: none;
+    /* background-color: rgb(5, 5, 5); */
+    height: auto;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 0.5rem;
+}
+
+.nav-toggle .toggle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0rem 1rem;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-right: 1.5rem;
+    gap: 1rem;
+
+    
+}
+
+.menu_item{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* font-size: .9rem; */
+    font-family: "Montserrat", sans-serif;
+  
+}
+
+.menu .menu_item:hover a{
+    color: rgb(0, 4, 255) !important;
+    transform: scale(1.1);
+}
+
+.nav-link{
+    color: rgb(2, 2, 2);
+}
+
+.anchor_wrapper{
+    display: flex;
+}
+.anchor_wrapper a i{
+    font-size: 1.5rem;
+}
+
+
+.social_wrapper{
+    display: flex;
+    align-items: center;
+}
+
+/* NAV BUTTON */
+
+.nav-button{
+    display: none;
+    position: relative;
+    height: 3.5em;
+    width: 3.5em;
+    padding: 0;
+    background: 0 0;
+    transition: all 250ms ease-out;
+    z-index: 99;
+    background: #fff;
+    cursor: pointer;
+}
+
+.nav-button::after, .nav-button::before {
+    content: "";
+    width: 2em;
+    height: 3px;
+    position: absolute;
+    background: #e3204a;
+    transition: all 250ms ease-out;
+    will-change: transform;
+    left: 50%;
+}
+
+
+/* /NAV BUTTON */
+
+
+
+.navigation .navigation_content .social_wrapper .text_anchor a{
+    min-width: 10.875em;
+    padding: 1.4rem 1.0rem;
+    background: #fff;
+    color: #033dfc;
+    font-size: 1em;
+    font-weight: 700;
+    /* transition: .5s; */
+}
+
+.navigation .navigation_content .social_wrapper  a{
+    position: relative;
+    padding: 1.4rem 0;
+    width: 3.1em;
+    background: #033dfc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation .navigation_content .social_wrapper  .wh_icon:hover{
+    background-color: white;
+    color: #033dfc;
+}
+.navigation .navigation_content .social_wrapper  .wh_icon:hover i{
+    color: #033dfc;
+}
+.navigation .navigation_content .social_wrapper  .tel_icon:hover{
+    background-color: white;
+    color: #033dfc;
+}
+.navigation .navigation_content .social_wrapper  .tel_icon:hover i{
+    color: #033dfc;
+}
+
+.floating_icon{
+    display: flex;
+    position: fixed;
+    bottom: 2em;
+    left: 2em;
+    flex-direction: column;
+    z-index: 9;
+}
+
+.floating_btn{
+    width: 4rem;
+    height: 4rem;
+    bottom: 20px;
+    left: 93vw;
+    position: fixed;
+    z-index: 1000;
+    border: 0px;
+    color: white;
+    border-radius: 50%;
+    background-color: #003afa;
+}
+
+
+.img_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+    padding: 0.9em;
+    background: #003afa;
+    border-radius: 100%;
+    width: 2em;
+    height: 2em;
+    transition: 800ms ease-in-out;
+}
+
+/* SERVICES SECTION CSS */
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+button{
+    background: none;
+    border: none;
+    padding: 0 1rem;
+}
+
+.services_section{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3e41fa;
+}
+
+.services_section .services_left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: transparent;
+}
+
+
+
+.services_section .services_left .services_heading {
+    position: absolute;
+    z-index: 5;
+    top: 3em;
+    left: 8.6em;
+    
+}
+.services_section .services_left .services_heading h1{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #ffffff;
+    text-transform: capitalize;
+    word-break: break-word;
+    font-size: 5em;
+    font-family: sans-serif;
+    font-weight: 700;
+    z-index: 1;
+    
+}
+
+
+
+.services_section .services_right{
+    position: relative;
+    width: 60%;
+    height: 100%;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 1rem 1rem;
+    margin-bottom: 3rem;
+
+}
+
+.services_section .services_right .right_area .grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.services_section .services_right .right_area .grid li{
+    width: 33.33%;
+    padding: 0 1.5em 0 0;
+    margin-bottom: .25em;
+    font-size: 0.6rem;
+    color: white;
+}
+.services_section .services_right .right_area .grid li a{
+    color: white;
+}
+
+
+.services_section .services_right .right_area .image{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.services_section .services_right .right_area img{
+    margin-top: 3rem;
+    width: 80%;
+    height: 90%;
+    padding-top: 3rem;
+}
+
+.services_section .services_right .services_description{
+    width: 100%;
+    height: 35vh;
+
+}
+
+.services_section .services_right .services_description p{
+    width: 100%;
+    font-size: 0.7rem;
+    font-family: "Montserrat", sans-serif;
+    color: whitesmoke;
+
+}
+
+.tablink{
+    color: white;
+}
+.services_section .services_right .services_description ul{
+    width: 100%;
+    font-size: 0.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+/* SERVICES SECTION CSS END HERE */
+
+/* OUR WORK SECTION */
+.our_work_section{
+    width: 100%;
+    background-color: #363636;
+    padding: 3rem 1rem;
+}
+
+.our_work_section .work_heading{
+    width: 100%;
+}
+
+.ourWork_arrow_icon{
+    width: 2rem;
+    height: 2rem;
+    background-color: #e3204a;
+    border-radius: 50%;
+}
+
+.our_work_section .work_heading .work_text{
+    width: 100%;
+    position: relative;
+    /* left: 70px; */
+    padding: 2rem 0;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #b9b9ba;
+    text-transform: capitalize;
+    word-break: break-word;
+    font-size: 3em;
+    font-family: sans-serif;
+    font-weight: 700;
+    z-index: 1;
+}
+
+.work_card_section{
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin-left: 0rem;
+}
+
+.work_card{
+   margin: 0 1rem;
+}
+
+.work_card .card_img img{
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+}
+.work_card .card_img img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.work_card_section::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+.our_para_text{
+    font-size: 0.6rem;
+}
+/* /OUR WORK SECTION */
+
+/* COLLAB BRAND  */
+.collab_brand{
+    position: relative;
+    background: #f8f8f8;
+}
+
+.collab_brand .collab_brand_section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.collab_brand .collab_brand_section .collab_brand_img{
+    width: 16.6%;
+}
+
+.collab_brand .collab_container{
+    max-width: 100%;
+    padding: 0 9%;
+}
+
+
+.collab_brand .brand_container .collab_title{
+    width: 40%;
+    color: #363636;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+/* /COLLAB BRAND  */
+
+/* AWARDS SECTION CSS */
+.position-relative{
+    width: 100%;
+    height: 575px;
+}
+
+.awards_txt-area{
+    width: 50%;
+}
+
+.awards_content_wrap{
+    max-width: 100%;
+    padding: 0 9%;
+}
+
+.awards_head_line{
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    padding-left: 2rem;
+    /* top: 30px; */
+    /* position: relative;
+    left: 120px; */
+
+}
+
+.awards_outline{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #e0e0e2;
+    text-transform: capitalize;
+    word-break: break-word;
+    font-size: 5em;
+    font-family: sans-serif;
+    font-weight: 700;
+    z-index: 1;
+}
+/* /AWARDS SECTION CSS */
+
+/* FAQ SECTION CSS */
+
+.faq_section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #e3e3ee;
+}
+
+.faq__outline_text{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #a1a1a1;
+    text-transform: capitalize;
+    word-break: break-word;
+    font-size: 5em;
+    font-family: sans-serif;
+    font-weight: 700;
+    z-index: 1;
+    padding-left: 2rem;
+}
+
+.faq_line_heading{
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    top: 10px;
+    position: relative;
+}
+
+.faq_card_section{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-left: 2rem;
+}
+
+.swiper_slide_card{
+    width: 25%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    margin-right: 30px;
+    padding: 2rem 2rem;
+}
+
+.slider_arrow_section{
+    display: flex;
+    justify-content: center;
+}
+
+.slide_card_descrip{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.arrow{
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    border: 2px solid rgb(4, 0, 255);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.faq_hover_card{
+    display: none;
+}
+/* /FAQ SECTION CSS */
+.outline{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #a1a1a1;
+    text-transform: capitalize;
+    word-break: break-word;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: 700;
+    z-index: 1;
+}
+/* WORTH A READ CSS */
+.worth_read{
+    width: 100%;
+    
+}
+
+.worth_read .worth_heading{
+    width: 100%;
+}
+.worth_read .worth_heading h3{
+   
+}
+
+.worth_read .worth_read_section{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+.worth_read .worth_read_section::-webkit-scrollbar{
+    display: none;
+}
+
+.worth_read .worth_read_section .worth_read_card{
+    width: 25%;
+    height: 15rem;
+    padding: 0rem 1rem;
+}
+
+.worth_read_desript{
+    width: 89%;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.worth_read_desript p{
+    font-size: 0.7rem;  
+}
+
+.worth_read_title{
+    width: 35%;
+    color: #c1c1c1;
+    font-size: .9em;
+    font-weight: 600;
+    padding: 0 1.5em 0 0;
+    margin: 0;
+}
+
+
+.worth_read_title_descript{
+    font-size: .875em;
+    width: 65%;
+    color: #282828;
+    font-weight: 500;
+    line-height: 1.3;
+    margin: 0;
+}
+
+/* /WORTH A READ CSS */
+
+/* GET SOCIAL CSS */
+.get_social_section{
+    position: relative;
+    background-color: #f8f8f8;
+    margin-bottom: 2rem;
+}
+
+.get_social_container{
+    padding: 0 5em;
+}
+
+.get_social_title{
+    color: #000;
+    margin: 0;
+    letter-spacing: .625em;
+    font-weight: 500;
+}
+
+.get_social_subtitle{
+    color: #000;
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
+
+.get_social_head{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 1em 0;
+}
+
+.social_item{
+    width: 3em;
+    height: 3.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.1em;
+}
+
+.facebook__icon{
+    font-size: 1.5rem;
+}
+
+.instagram__icon{
+    font-size: 1.8rem;
+}
+
+.youtube__icon{
+    font-size: 1.9rem;
+}
+
+.fb_icon{
+    padding-left: 0.5rem;
+}
+
+.social_item a{
+    text-decoration: none;
+    color: #000;
+    font-size: 2rem;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.getSocial_twocol_row{
+   display: flex; 
+   flex-wrap: wrap;
+  
+}
+
+.getSocial_card.big_card{
+    width: 40%;
+}
+.getSocial_card.big_card .bg_img{
+    width: 100%;
+    transition: transform 0.4s;
+}
+.getSocial_card.big_card .bg_img:hover{
+    transform: scale(1.1);
+}
+
+.getSocial__card{
+    position: relative;
+    width: 20%;
+}
+
+
+.getSocial__card a .bg_img{
+    transition: transform  0.4s; 
+}
+.getSocial__card a .bg_img:hover{
+    transform: scale(1.1);
+}
+
+.getSocial__card .bg_img{
+    width: 100%;
+}
+
+
+.you_tube_icon{
+    position: absolute;
+    top: 2.1875em;
+    left: 2.1875em;
+    width: auto;
+    height: 1.8125em;
+}
+
+
+/* /GET SOCIAL CSS */
+
+/* FOOTER CSS */
+ .footer{
+    position: relative;
+    /* background-color: #363636; */
+    width: 100%;
+    height: 30rem;
+    display: flex;
+}
+
+.footer_outline_text{
+    /* -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #a1a1a1;
+    text-transform: capitalize;
+    word-break: break-word;
+    font-size: 3.5em;
+    font-family: sans-serif;
+    font-weight: 700;
+    z-index: 1; */
+}
+
+.footer_main_title{
+    position: absolute;
+    top: 2rem;
+    left: 12rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px white;
+    text-transform: capitalize;
+    word-break: break-word;
+    font-size: 5em;
+    font-family: sans-serif;
+    font-weight: 700;
+    z-index: 1;
+    padding-bottom: 2rem;
+}
+
+.footer_left{
+    width: 45%;
+    height: 100%;
+    /* position: absolute; */
+    background: #0307fa;
+    z-index: -1;
+    padding-top: 12rem;
+    padding-left: 9rem;
+}
+
+.footer_quick_link{
+    display: none;
+}
+
+.footer_right{
+    width: 65%;
+    height: 100%;
+    background-color: #363636;
+    padding-top: 5rem;
+}
+
+.footet_left_title{
+ font-size: 1.5rem;
+}
+
+.footer_left_para{
+    color: white;
+    font-size: 0.7rem;
+}
+
+.footer_address_section{
+    margin-left: 4rem;
+}
+
+.address{
+    color: white;
+    font-size: 0.7rem;
+}
+
+.footer_icon-wrapper a{
+    padding: 0 0.5rem;
+    font-size: 1rem;
+}
+
+.footer_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_right_listItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-right: 5rem;
+
+}
+
+.footer_right_p{
+    border-left: 2px solid white;
+    padding-left: 0.3rem;
+}
+
+.footer_anchor_items{
+    font-size: 0.7rem;
+}
+/* /FOOTER CSS */

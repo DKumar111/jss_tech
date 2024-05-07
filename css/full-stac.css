@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.job_title{
+    max-width: 80%;
+    height: 7rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 4rem;
+    margin-top: 4rem;
+    border: 1px solid rgb(235, 235, 235);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.job_detail_section{
+    width: 50%;
+    padding: 0 2.5em 0 4.5625em;
+}
+
+.job_title .job_title_text{
+}
+
+.job_apply_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.job_title .job_apply_btn a{
+    background: #e3204a;
+    padding: 0rem 3rem;
+    color: #fff;
+    border-radius: 18.75em;
+    border: 1px solid #e3204a;
+    text-decoration: none;
+    padding-top: 0.8rem;
+}
+
+.job_responsibilities{
+    width: 50%;
+    padding: 0 2.5em 0 4.5625em;
+}
+
+.job_discription{
+    padding-top: 5rem;    
+}

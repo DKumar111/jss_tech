@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JSS TECHNOLOGIES</title>
 
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/styl.css" type="text/css" media="all" />
     <link rel="stylesheet" href="css/responsiv.css" type="text/css" media="all" />
 
     <!-- AOS CSS CDN -->
@@ -26,8 +26,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-
-<body>
     <!-- HEADER START HERE -->
     <?php   include 'header.php'   ?>
     <!-- HEADER END HERE -->
@@ -639,84 +637,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="work_card" data-aos="fade-up" data-aos-once="true">
-                    <div class="card_img">
-                        <img width="386px" height="290em"
-                            src="https://www.digitalgravity.ae/assets/images/home/our-work/our-work-4.webp" alt="">
-                    </div>
-                    <div class="card_desc">
-                        <div class="card_title">
-                            <h1 class="card_heading text-white ">EMAAR</h1>
-                        </div>
-                        <div class="desc w-75">
-                            <p class="our_para_text text-secondary  ">
-
-                                Assisting businesses in representing and achieving their core values and objectives by
-                                initiating high-performing strategies.
-                            </p>
-                            <div class="ourWork_arrow d-flex justify-content-start  align-self-lg-center ">
-                                <a class="ourWork_arrow_icon d-flex justify-content-center align-items-center text-decoration-none text-white "
-                                    href="#">
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="work_card" data-aos="fade-up" data-aos-once="true">
-                    <div class="card_img">
-                        <img width="386px" height="290em"
-                            src="https://www.digitalgravity.ae/assets/images/home/our-work/our-work-5.webp" alt="">
-                    </div>
-                    <div class="card_desc">
-                        <div class="card_title">
-                            <h1 class="card_heading text-white ">
-                                <img src="https://www.digitalgravity.ae/assets/images/home/our-work/saeed-logo.svg"
-                                    alt="">
-                            </h1>
-                        </div>
-                        <div class="desc w-75">
-                            <p class="our_para_text text-secondary  ">
-
-                                A Well crafted and strategy-based project with utmost importance to the business
-                                objective achievement.
-                            </p>
-                            <div class="ourWork_arrow d-flex justify-content-start  align-self-lg-center ">
-                                <a class="ourWork_arrow_icon d-flex justify-content-center align-items-center text-decoration-none text-white "
-                                    href="#">
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="work_card" data-aos="fade-up" data-aos-once="true">
-                    <div class="card_img">
-                        <img width="386px" height="290em"
-                            src="https://www.digitalgravity.ae/assets/images/home/our-work/our-work-8.webp" alt="">
-                    </div>
-                    <div class="card_desc">
-                        <div class="card_title">
-                            <h1 class="card_heading text-white ">
-                                <img src="https://www.digitalgravity.ae/assets/images/home/our-work/suzuki-logo.svg"
-                                    alt="">
-                            </h1>
-                        </div>
-                        <div class="desc w-75">
-                            <p class="our_para_text text-secondary  ">
-
-                                Assisting one of the most successful automobile companies to attain greater goals of
-                                digital presence.
-                            </p>
-                            <div class="ourWork_arrow d-flex justify-content-start  align-self-lg-center ">
-                                <a class="ourWork_arrow_icon d-flex justify-content-center align-items-center text-decoration-none text-white "
-                                    href="#">
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -728,21 +648,21 @@
             <h2 data-aos="fade-up" data-aos-once="true" class="collab_title">We are ready to uplift your <br /> <span
                     style="color: #003afa;">brand like many
                     others in</span> <br /> the past!
-                </h2>
+            </h2>
         </div>
         <div class="collab_brand_section container text-center pt-4 " data-aos="slide-up" data-aos-once="true">
-            <div class="col"><img src="image/brand_img/brand-1.svg" alt=""></div>
+            <!-- <div class="col"><img src="image/brand_img/brand-1.svg" alt=""></div> -->
             <div class="collab_brand_img"><img src="image/brand_img/brand-2.svg" alt=""></div>
             <div class="collab_brand_img"><img src="image/brand_img/brand-3.svg" alt=""></div>
-            <div class="collab_brand_img"><img src="image/brand_img/brand-4.svg" alt=""></div>
-            <div class="collab_brand_img"><img src="image/brand_img/brand-5.svg" alt=""></div>
-            <div class="collab_brand_img"><img src="image/brand_img/brand-6.svg" alt=""></div>
-            <div class="collab_brand_img"><img src="image/brand_img/brand-7.svg" alt=""></div>
-            <div class="collab_brand_img"><img src="image/brand_img/brand-8.svg" alt=""></div>
-            <div class="collab_brand_img"><img src="image/brand_img/brand-9.svg" alt=""></div>
+            <!-- <div class="collab_brand_img"><img src="image/brand_img/brand-4.svg" alt=""></div> -->
+            <!-- <div class="collab_brand_img"><img src="image/brand_img/brand-5.svg" alt=""></div> -->
+            <!-- <div class="collab_brand_img"><img src="image/brand_img/brand-6.svg" alt=""></div> -->
+            <!-- <div class="collab_brand_img"><img src="image/brand_img/brand-7.svg" alt=""></div> -->
+            <!-- <div class="collab_brand_img"><img src="image/brand_img/brand-8.svg" alt=""></div> -->
+            <!-- <div class="collab_brand_img"><img src="image/brand_img/brand-9.svg" alt=""></div> -->
             <div class="collab_brand_img"><img src="image/brand_img/brand-10.svg" alt=""></div>
             <div class="collab_brand_img"><img src="image/brand_img/brand-11.svg" alt=""></div>
-            <div class="collab_brand_img"><img src="image/brand_img/brand-12.svg" alt=""></div>
+            <!-- <div class="collab_brand_img"><img src="image/brand_img/brand-12.svg" alt=""></div> -->
             <div class="collab_brand_img"><img src="image/brand_img/brand-13.svg" alt=""></div>
 
         </div>
@@ -810,28 +730,19 @@
         </div>
         <div class="faq_card_section">
             <div class="swiper_slide_card">
-                <div class="">
-                    <h2 class="outline">1</h2>
-                    <h4 class="slide_card_descrip">
-                        I need web design services for my enterprise website. Can you help?
-                    </h4>
-                    <div class="slider_arrow_section">
-                        <div class="arrow">
-                            <img src="image/plus-icon.svg" width="16px" alt="">
-                        </div>
+
+                <h2 class="outline">1</h2>
+                <h4 class="slide_card_descrip">
+                    I need web design services for my enterprise website. Can you help?
+                </h4>
+                <div class="slider_arrow_section">
+                    <div class="arrow">
+                        <img src="image/plus-icon.svg" width="16px" alt="">
                     </div>
                 </div>
-                <div class="faq_hover_card">
-                    <h2>1</h2>
-                    <p>
-                        Whether you are an enterprise or a start-up, we would love to contribute to your growth with our
-                        web design and development services in Dubai. We have designed several enterprise websites
-                        before. Head over to our portfolio section to see our capabilities in enterprise web
-                        development.
-                    </p>
-                </div>
+
             </div>
-            <div class="swiper_slide_card">
+             <div class="swiper_slide_card">
                 <h2 class="outline">2</h2>
                 <h4 class="slide_card_descrip">
                     How much does it cost to hire web designer in Dubai?
@@ -842,7 +753,7 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper_slide_card">
+           - <div class="swiper_slide_card">
                 <h2 class="outline">3</h2>
                 <h4 class="slide_card_descrip">
                     How can I choose a great web design agency in Dubai?
@@ -876,10 +787,21 @@
                     </div>
                 </div>
             </div>
+            <div class="swiper_slide_card">
+                <h2 class="outline">5</h2>
+                <h4 class="slide_card_descrip">
+                    What are the average charges that a website design agency in Dubai asks for responsive web design
+                    services?
+                </h4>
+                <div class="slider_arrow_section">
+                    <div class="arrow">
+                        <img src="image/plus-icon.svg" width="16px" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
     </div> -->
     <!-- /FAQ SECTIOIN -->
-
 
     <!-- WORTH READ SECTION -->
     <div class="worth_read">
@@ -973,7 +895,6 @@
     </div>
     <!-- WORTH READ SECTION -->
 
-
     <!-- GET SOCIAL SECTION  -->
     <div class="get_social_section">
         <div class="get_social_container">
@@ -981,19 +902,19 @@
                 <p class="get_social_title" data-aos="fade-up" data-aos-once="true">GET SOCIAL</p>
                 <h2 class="get_social_subtitle" data-aos="fade-up" data-aos-once="true">Join the conversation</h2>
                 <ul class="d-flex p-0 " data-aos="fade-up" data-aos-once="true">
-                    <li class="social_item">
+                    <li class="social_item fb_icon">
                         <a class="" href="https://www.facebook.com/profile.php?id=61558598588235">
-                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fb_icon fa-brands fa-facebook-f facebook__icon"></i>
                         </a>
                     </li>
                     <li class="social_item">
                         <a class="" href="https://www.instagram.com/jsstechnologiesllc/">
-                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-instagram instagram__icon"></i>
                         </a>
                     </li>
                     <li class="social_item">
                         <a class="" href="https://www.youtube.com/channel/UCvjiQV9lwrhO0cFMPYHWc6A">
-                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-youtube youtube__icon"></i>
                         </a>
                     </li>
                 </ul>
@@ -1100,8 +1021,9 @@
 
     <!-- /FOOTER SECTION -->
 
-  
 
+
+ 
     <!-- BOOTSTRAP JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
@@ -1120,9 +1042,13 @@
 
     <script src="js/slider_tab.js"></script>
     <script src="js/sideNav.js"></script>
-    <script src="js/activeClass.js"></script>  
+    <script src="js/activeClass.js"></script>
     <script src="js/removeNav.js"></script>
     <script src="js/FooterDropdown.js"></script>
+    <script src="js/jquery/jquery-3.7.1.min.js"></script>
+    <script src="js/slider_two.js"></script>
+    <script src="js/popup-modal.js"></script>
 </body>
 
 </html>
+

@@ -1,3 +1,4 @@
+//JAVASCRIPT CODE FOR TAB
 const tabButtons = document.querySelectorAll('.tablink');
 for(let i=0; i<tabButtons.length;i++){
     tabButtons[i].addEventListener('click',function(){
@@ -17,6 +18,7 @@ for(let i=0; i<tabButtons.length;i++){
     })
 }
 document.querySelector(".tablink").click();
+//JAVASCRIPT CODE FOR TAB ENDS HERE
 
 // CARD SLIDE USING WHEEL
 
@@ -43,4 +45,5 @@ worthReadSection.addEventListener("wheel", (e) =>{
 })
 
 //WORTH READ CARD SLIDE USING WHEEL
+
 

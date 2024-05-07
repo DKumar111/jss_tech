@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JSS TECHNOLOGIES</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styl.css">
     <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/careere.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/responsiv.css">
 
     <!-- AOS CSS CDN -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -48,7 +48,7 @@
                     </h1>
                 </div>
                 <div class="col-30">
-                    <p class="aboutUs_para text-white">At Digital Gravity, we have leading industry professionals and
+                    <p class="aboutUs_para text-white">At JSS Technologies, we have leading industry professionals and
                         state-of-the-art
                         technology to ensure your business and brands lift up on the digital front.</p>
                 </div>
@@ -62,7 +62,7 @@
         <div class="internship_inner_sec">
             <h3 class="internship_heading text-white ">
                 For internships, please fill in a quick form
-                <a class="text-white" href="#">here</a>
+                <a class="text-white" href="https://docs.google.com/forms/d/e/1FAIpQLSe4EeltnsGtrTeSWmbdRSf59izvN5FUPW46dHIhp_Bn436Utw/viewform?usp=sf_link" target="_blank">here</a>
             </h3>
         </div>
 
@@ -75,7 +75,7 @@
             <div class="currentOpenings_header" data-aos="fade-up" data-aos-once="true">
                 <h2>Current Openings</h2>
                 <p class="w-75 ">
-                    Digital Gravity is always on the hunt for passionate, self-confident, enthusiastic and creative
+                JSS Technologies is always on the hunt for passionate, self-confident, enthusiastic and creative
                     individuals to share their brilliance and expertise in digital transformation.
                 </p>
                 <p>
@@ -83,31 +83,14 @@
                     <a href="mailto: support@jsstechnologiesllc.com">support@jsstechnologiesllc.com</a>
                 </p>
             </div>
-
-            <!-- CARD SECTION -->
             <div class="currentOpenings_cards_section    ">
-                <div class="currentOpenings_card " data-aos="fade-up" data-aos-once="true">
-                    <h4 class="currenOpenings_card_title">Business Analyst</h4>
-                    <p>We are looking for a detail-oriented resource to be hired as Business Analyst at our Karachi
-                        office.</p>
-                    <a class="currentOpenings_anchor_item" href="#">Apply Now</a>
-                </div>
+               
                 <div class="currentOpenings_card" data-aos="fade-up" data-aos-once="true">
                     <h4 class="currenOpenings_card_title">Full Stack Developer</h4>
                     <p>We are looking for an experienced Full Stack Developer to be added in our Development team.</p>
-                    <a class="currentOpenings_anchor_item" href="#">Apply Now</a>
+                    <a class="currentOpenings_anchor_item" href="full-stack.php">Apply Now</a>
                 </div>
-                <div class="currentOpenings_card " data-aos="fade-up" data-aos-once="true">
-                    <h4 class="currenOpenings_card_title">Microsoft Dynamics 365 Solution Architect</h4>
-                    <p>We are looking for an exceptional resource to be hired in the capacity of Microsoft Dynamics 365
-                        Solution Architect.</p>
-                    <a class="currentOpenings_anchor_item" href="#">Apply Now</a>
-                </div>
-                <div class="currentOpenings_card" data-aos="fade-up" data-aos-once="true">
-                    <h4 class="currenOpenings_card_title">Node JS Developer</h4>
-                    <p>We are looking for a skilled Node JS Developer to be added in our Development team.</p>
-                    <a class="currentOpenings_anchor_item" href="#">Apply Now</a>
-                </div>
+               
                 <div class="currentOpenings_card " data-aos="fade-up" data-aos-once="true">
                     <h4 class="currenOpenings_card_title">PHP Developer</h4>
                     <p>We are looking for a PHP Developer who is experienced in PHP custom-theme Website development.
@@ -126,21 +109,13 @@
                         team.</p>
                     <a class="currentOpenings_anchor_item" href="#">Apply Now</a>
                 </div>
-                <div class="currentOpenings_card" data-aos="fade-up" data-aos-once="true">
-                    <h4 class="currenOpenings_card_title">Senior-Level SQA Engineer</h4>
-                    <p>We are looking for an experienced QA resource to be hired in the role of Senior SQA Engineer.</p>
-                    <a class="currentOpenings_anchor_item" href="#">Apply Now</a>
-                </div>
+              
                 <div class="currentOpenings_card " data-aos="fade-up" data-aos-once="true">
                     <h4 class="currenOpenings_card_title">Senior UI/UX Designer</h4>
                     <p>We are looking for a dynamic Senior UI/UX Designer to be added in our Design team.</p>
                     <a class="currentOpenings_anchor_item" href="#">Apply Now</a>
                 </div>
-                <div class="currentOpenings_card" data-aos="fade-up" data-aos-once="true">
-                    <h4 class="currenOpenings_card_title">SharePoint Developer</h4>
-                    <p>We are looking for an experienced SharePoint Developer.</p>
-                    <a class="currentOpenings_anchor_item" href="#">Apply Now</a>
-                </div>
+            
                 <div class="currentOpenings_card " data-aos="fade-up" data-aos-once="true">
                     <h4 class="currenOpenings_card_title">Technical Project Manager</h4>
                     <p>We are looking for a dynamic Technical Project Manager to be added in our project Management
@@ -153,7 +128,6 @@
                     <a class="currentOpenings_anchor_item" href="#">Apply Now</a>
                 </div>
             </div>
-            <!-- /CARD SECTION -->
         </div>
     </div>
     <!-- /CURRENT OPENNINGS SECTION -->
@@ -169,7 +143,10 @@
                     <h1 class="text-white">OPPORTUNITIES <br> DON'T HAPPENS, <br> <span>YOU</span> CREATE THEM </h1>
                 </div>
                 <div class="culture_play_btn">
-                    <img src="	https://www.digitalgravity.ae/assets/svg/play-btn.svg" alt="">
+                    <a href="https://www.youtube.com/channel/UCvjiQV9lwrhO0cFMPYHWc6A" target="_blank">
+                    <img src="https://www.digitalgravity.ae/assets/svg/play-btn.svg" alt="">
+                    </a>
+                    
                 </div>
             </div>
             <div class="culture_rightSection">
@@ -215,10 +192,12 @@
                             <img src="https://www.digitalgravity.ae/assets/images/career/employee1.webp" alt="">
                         </div>
                         <div class="customerName">Ali Abbas</div>
-                        <div class="customerDesignation">UX/UI Designer</div>
+                        <div class="customerDesignation">Business</div>
                         <p class="customerDescription">
-                            The Best Place to grow and learn with fun-working environment, i must say this is my dream
-                            place to work </p>
+                            Choosing "JSS Technology" for our IT needs was one of the best decisions we made.
+                            Their professionalism and attention to detail are unmatched. They took the time to
+                            understand our requirements and delivered tailored solutions that perfectly fit our business
+                            goals </p>
                     </div>
                 </div>
             </div>
@@ -240,6 +219,7 @@
     <script src="js/sidenav.js"></script>
     <script src="js/removeNav.js"></script>
     <script src="js/activeClass.js"></script>
+    <script src="js/popup-modal.js"></script>
 
     <!-- BOOTSTRAP JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

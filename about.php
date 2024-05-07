@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JSS TECHNOLOGIES</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styl.css">
     <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/aboutus.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/responsiv.css">
 
     <!-- AOS CSS CDN -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -47,7 +47,7 @@
                     </h1>
                 </div>
                 <div class="col-30">
-                    <p class="aboutUs_para text-white">At Digital Gravity, we have leading industry professionals and
+                    <p class="aboutUs_para text-white">At JSS Technologies, we have leading industry professionals and
                         state-of-the-art
                         technology to ensure your business and brands lift up on the digital front.</p>
                 </div>
@@ -726,7 +726,7 @@
     <!-- /EXPERTIES SECTION -->
 
     <!-- WORTH READ SECTION -->
-    <div class="worth_read">
+    <!-- <div class="worth_read">
         <div class="worth_heading ">
             <h3 style="font-size: 5rem;" class="outline ">Worth A Read</h3>
         </div>
@@ -814,11 +814,11 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- WORTH READ SECTION -->
 
     <!-- GET SOCIAL SECTION  -->
-    <div class="get_social_section">
+    <!-- <div class="get_social_section">
         <div class="get_social_container">
             <div class="get_social_head">
                 <p class="get_social_title" data-aos="fade-up" data-aos-once="true">GET SOCIAL</p>
@@ -920,7 +920,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- /GET SOCIAL SECTION  -->
 
     <!-- FOATING FIXED ICON -->
@@ -937,6 +937,7 @@
     <script src="js/sidenav.js"></script>
     <script src="js/removeNav.js"></script>
     <script src="js/activeClass.js"></script>
+    <script src="js/popup-modal.js"></script>
 
     <!-- BOOTSTRAP JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

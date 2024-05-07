@@ -1,3 +1,31 @@
+<?php
+if(isset($_POST['send'])){
+        $username = $_POST['username'];
+        $email = $_POST['email'];
+        $phone = $_POST['phone'];
+        $usermesg = $_POST['message'];
+
+        $toEmail = "dk9094293@gmail.com";
+
+        $mailHeaders = "Name: " .$username. 
+        "\r\n Email: " . $email .
+        "\r\n  Subject: " . $phone . 
+        "\r\n Message: " .$usermesg . "\r\n";
+
+        if(mail($toEmail, $username, $mailHeaders)){
+
+            echo "<script>alert('Email sent successfully')</script>";
+
+            // $message = "Your information is recieved successfully.";
+        }
+            // echo "<script>alert('Message has been sent')</script>";
+       
+}
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,24 +34,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JSS TECHNOLOGIES</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styl.css">
     <link rel="stylesheet" href="css/blog.css">
-    <link rel="stylesheet" href="css/service.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/responsiv.css">
 
-    <!-- AOS CSS CDN -->
+   
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- FONTAWESOME CDN -->
+   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- FONTAWESOME CDN -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- BOOTSTRAP CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
@@ -49,31 +76,31 @@
                     <h3>Speak to an Expert</h3>
                     <p class="text-secondary ">
                         if you have any RFP requirement please share with us at
-                        <a href="mailto:discover@digitalgravity.ae"
-                            class="primary-col w-uline">discover@digitalgravity.ae</a> and if you
+                        <a href="mailto:support@jsstechnologiesllc.com"
+                            class="primary-col w-uline">support@jsstechnologiesllc.com</a> and if you
                         are looking for a career related
-                        enquiry please check our <a href="#" class="primary-col w-uline">Career</a> section.
+                        enquiry please check our <a href="careers.php" class="primary-col w-uline">Career</a> section.
                     </p>
                 </div>
                 <form action="" method="post">
                     <div class="form_control">
-                        <input type="text" name="" class="userName" id="">
+                        <input type="text" name="" class="username" id="" required="required">
                         <label for="name">Your Name*</label>
                     </div>
                     <div class="form_control">
-                        <input type="text" name="" class="userName" id="">
+                        <input type="text" name="" class="email" id="" required="required">
                         <label for="name">Your Email*</label>
                     </div>
                     <div class="form_control">
-                        <input type="text" name="" class="userName" id="">
+                        <input type="text" name="" class="phone" id="" required="required">
                         <label for="name">Your Phone*</label>
                     </div>
                     <div class="form_control">
-                        <input type="text" name="" class="userName" id="">
+                        <input type="text" name="" class="message" id="" required="required">
                         <label for="name">Your Message*</label>
                     </div>
                     <div class="form_button_wrapper">
-                        <button class="form_submit_btn" type="submit">Send</button>
+                        <button class="form_submit_btn" name="submit" type="submit">Send</button>
                         <div class="form_arrow">
                             <i class="fa-solid fa-arrow-right"></i>
                         </div>
@@ -226,6 +253,7 @@
     <script src="js/sidenav.js"></script>
     <script src="js/removeNav.js"></script>
     <script src="js/activeClass.js"></script>
+    <script src="js/popup-modal.js"></script>
 
     <!-- BOOTSTRAP JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

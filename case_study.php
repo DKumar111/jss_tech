@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JSS TECHNOLOGIES</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styl.css">
     <link rel="stylesheet" href="css/blog.css">
-    <link rel="stylesheet" href="css/case_studyy.css">
+    <link rel="stylesheet" href="css/case_study.css">
     <link rel="stylesheet" href="css/responsiv.css">
 
      <!-- AOS CSS CDN -->
@@ -47,7 +47,7 @@
                     </h1>
                 </div>
                 <div class="col-30">
-                    <p class="aboutUs_para text-white">At Digital Gravity, we have leading industry professionals and
+                    <p class="aboutUs_para text-white">At JSS Technologies, we have leading industry professionals and
                         state-of-the-art
                         technology to ensure your business and brands lift up on the digital front.</p>
                 </div>
@@ -59,17 +59,17 @@
 
     <div class="case_studies">
         <ul class="case-studies__tabs-wrapper categories-filer-body">
-            <li class="button  active" data-id="all"> ALL</li>
-            <li class="button" data-id="77"> WEB</li>
-            <li class="button" data-id="74"> MOBILE APP </li>
-            <li class="button" data-id="70"> SEO </li>
-            <li class="button" data-id="76"> PPC </li>
-            <li class="button" data-id="305"> SMM </li>
-            <li class="button" data-id="306">PRINT </li>
+            <li class="button show-all  active" data-tab="all" data-id="all"> ALL</li>
+            <li class="button web" data-tab="web" data-id="77"> WEB</li>
+            <li class="button mobile-app " data-tab="mobile-app" data-id="74"> MOBILE APP </li>
+            <li class="button seo" data-tab="seo" data-id="70"> SEO </li>
+            <li class="button ppc" data-tab="ppc" data-id="76"> PPC </li>
+            <li class="button smm" data-tab="smm" data-id="305"> SMM </li>
+            <li class="button print" data-tab="print" data-id="306">PRINT </li>
         </ul>
         <!-- CARD SECTION STARTS HERE -->
-        <div class="study_case_grid-layout    ">
-            <a class=" caseStudy_card text-decoration-none  d-flex flex-column   " href="#">
+        <div class="study_case_grid-layout tabcontent" id="web">
+            <a class="filtered-div caseStudy_card text-decoration-none  d-flex flex-column " href="#" id="web" data-web = "web">
                 <img src="image/case_study/card-1.webp" alt="">
                 <div class="case_study_desc_wrapper d-flex justify-content-between align-items-center ">
                     <div class="case_study_title">
@@ -84,11 +84,11 @@
                     </div>
                 </div>
             </a>
-            <a class="caseStudy_card text-decoration-none d-flex flex-column  caseStudy_second_card  " href="#">
+            <a class="filtered-div caseStudy_card text-decoration-none d-flex flex-column  caseStudy_second_card " href="#" id="smm" data-smm = "smm">
                 <img src="https://www.digitalgravity.ae/assets/images/case-sttudies/highlight3.webp" alt="">
                 <div class="case_study_desc_wrapper d-flex justify-content-between align-items-center">
                     <div class="">
-                        <h3 class="case_study_heading">Palm Marina</h3>
+                        <h3 class="case_study_heading">Jino</h3>
                         <p class="case_study_subheading">Web | Branding</p>
                     </div>
                     <div class="d-flex justify-content-center align-items-center view_case-study ">
@@ -99,11 +99,11 @@
                     </div>
                 </div>
             </a>
-            <a class=" caseStudy_card text-decoration-none d-flex flex-column  " href="#">
-                <img src="https://www.digitalgravity.ae/assets/images/case-sttudies/highlight4.webp" alt="">
+            <a class="filtered-div caseStudy_card text-decoration-none d-flex flex-column " href="#">
+                <img src="https://www.digitalgravity.ae/assets/images/case-sttudies/highlight4.webp" alt="" id="ppc" data-ppc="ppc">
                 <div class="case_study_desc_wrapper d-flex justify-content-between align-items-center">
                     <div class="">
-                        <h3 class="case_study_heading">Palm Marina</h3>
+                        <h3 class="case_study_heading">Rmal Hospitality</h3>
                         <p class="case_study_subheading">Web | Branding</p>
                     </div>
                     <div class="d-flex justify-content-center align-items-center view_case-study ">
@@ -114,11 +114,11 @@
                     </div>
                 </div>
             </a>
-            <a class="caseStudy_card text-decoration-none d-flex flex-column  caseStudy_second_card" href="#">
+            <a class="filtered-div caseStudy_card text-decoration-none d-flex flex-column  caseStudy_second_card" href="#" id="mobile-app" data-mobile="mobile-app">
                 <img src="https://www.digitalgravity.ae/assets/images/case-sttudies/highlight6.webp" alt="">
                 <div class="case_study_desc_wrapper d-flex justify-content-between align-items-center ">
                     <div class="">
-                        <h3 class="case_study_heading">Palm Marina</h3>
+                        <h3 class="case_study_heading">EMAAR</h3>
                         <p class="case_study_subheading">Web | Branding</p>
                     </div>
                     <div class="d-flex justify-content-center align-items-center view_case-study ">
@@ -142,13 +142,13 @@
     </div>
 
     <!-- ANOTHER CARD SECTION -->
-    <div class="three-row-layout">
+    <div class="three-row-layout tabcontent" id="smm">
         <a class="three-row-card text-decoration-none " href="#">
             <img src="https://www.digitalgravity.ae/assets/images/case-sttudies/highlight3.webp" alt="">
             <div class="three-card_desc d-flex justify-content-between align-items-center">
                 <div class="three-card_heading">
-                    <h3 class="three-card-title">Palm Marina</h3>
-                    <p class="three-card_subtitle">Web | Branding</p>
+                    <h3 class="three-card-title">Jino</h3>
+                    <p class="three-card_subtitle">App</p>
                 </div>
                 <div class="d-flex justify-content-center align-items-center three_card_viewCase_study ">
                     <span class="me-2 ">View Case Study</span>
@@ -162,7 +162,7 @@
             <img src="https://www.digitalgravity.ae/assets/images/case-sttudies/img-2.webp" alt="">
             <div class="three-card_desc d-flex justify-content-between align-items-center">
                 <div class="three-card_heading">
-                    <h3 class="three-card-title">Palm Marina</h3>
+                    <h3 class="three-card-title">Saeed</h3>
                     <p class="three-card_subtitle">Web | Branding</p>
                 </div>
                 <div class="d-flex justify-content-center align-items-center three_card_viewCase_study ">
@@ -177,7 +177,7 @@
             <img src="https://www.digitalgravity.ae/assets/images/case-sttudies/img-4.webp" alt="">
             <div class="three-card_desc d-flex justify-content-between align-items-center">
                 <div class="three-card_heading">
-                    <h3 class="three-card-title">Palm Marina</h3>
+                    <h3 class="three-card-title">Belgravia</h3>
                     <p class="three-card_subtitle">Web | Branding</p>
                 </div>
                 <div class="d-flex justify-content-center align-items-center three_card_viewCase_study ">
@@ -192,7 +192,7 @@
             <img src="	https://www.digitalgravity.ae/assets/images/case-sttudies/img-8.webp" alt="">
             <div class="three-card_desc d-flex justify-content-between align-items-center">
                 <div class="three-card_heading">
-                    <h3 class="three-card-title">Palm Marina</h3>
+                    <h3 class="three-card-title">Capital Health</h3>
                     <p class="three-card_subtitle">Web | Branding</p>
                 </div>
                 <div class="d-flex justify-content-center align-items-center three_card_viewCase_study ">
@@ -207,7 +207,7 @@
             <img src="https://www.digitalgravity.ae/assets/images/case-sttudies/img-10.webp" alt="">
             <div class="three-card_desc d-flex justify-content-between align-items-center">
                 <div class="three-card_heading">
-                    <h3 class="three-card-title">Palm Marina</h3>
+                    <h3 class="three-card-title">Picpax</h3>
                     <p class="three-card_subtitle">Web | Branding</p>
                 </div>
                 <div class="d-flex justify-content-center align-items-center three_card_viewCase_study ">
@@ -222,7 +222,7 @@
             <img src="https://www.digitalgravity.ae/assets/images/case-sttudies/img-11.webp" alt="">
             <div class="three-card_desc d-flex justify-content-between align-items-center">
                 <div class="three-card_heading">
-                    <h3 class="three-card-title">Palm Marina</h3>
+                    <h3 class="three-card-title">Dpworld</h3>
                     <p class="three-card_subtitle">Web | Branding</p>
                 </div>
                 <div class="d-flex justify-content-center align-items-center three_card_viewCase_study ">
@@ -237,8 +237,8 @@
             <img src="https://www.digitalgravity.ae/assets/images/case-sttudies/img-20.webp" alt="">
             <div class="three-card_desc d-flex justify-content-between align-items-center">
                 <div class="three-card_heading">
-                    <h3 class="three-card-title">Palm Marina</h3>
-                    <p class="three-card_subtitle">Web | Branding</p>
+                    <h3 class="three-card-title">Dj</h3>
+                    <p class="three-card_subtitle">seo | Branding</p>
                 </div>
                 <div class="d-flex justify-content-center align-items-center three_card_viewCase_study ">
                     <span class="me-2 ">View Case Study</span>
@@ -252,8 +252,8 @@
             <img src="https://www.digitalgravity.ae/assets/images/case-sttudies/img-12.webp" alt="">
             <div class="three-card_desc d-flex justify-content-between align-items-center">
                 <div class="three-card_heading">
-                    <h3 class="three-card-title">Palm Marina</h3>
-                    <p class="three-card_subtitle">Web | Branding</p>
+                    <h3 class="three-card-title">The Reliable Interior</h3>
+                    <p class="three-card_subtitle">seo | Branding</p>
                 </div>
                 <div class="d-flex justify-content-center align-items-center three_card_viewCase_study ">
                     <span class="me-2 ">View Case Study</span>
@@ -267,8 +267,8 @@
             <img src="https://www.digitalgravity.ae/assets/images/case-sttudies/img-18.webp" alt="">
             <div class="three-card_desc d-flex justify-content-between align-items-center">
                 <div class="three-card_heading">
-                    <h3 class="three-card-title">Palm Marina</h3>
-                    <p class="three-card_subtitle">Web | Branding</p>
+                    <h3 class="three-card-title">Goyzer</h3>
+                    <p class="three-card_subtitle">seo | Branding</p>
                 </div>
                 <div class="d-flex justify-content-center align-items-center three_card_viewCase_study ">
                     <span class="me-2 ">View Case Study</span>
@@ -302,6 +302,8 @@
     <script src="js/sidenav.js"></script>
     <script src="js/removeNav.js"></script>
     <script src="js/activeClass.js"></script>
+    <script src="js/case-study-tab.js"></script>
+    <script src="js/popup-modal.js"></script>
 
     <!-- BOOTSTRAP JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

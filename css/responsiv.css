@@ -22,6 +22,11 @@
     .header .header_container .brand_logo{
         width: 30%;
     }
+
+    .nav_btn.active {
+        background-color: #666;
+        color: rgb(255, 255, 255) !important;
+      }
     /* /HEADER SECTOIN */
 
     /* HERO SECTION */
@@ -272,6 +277,30 @@
 
     /* AWARDS SECTION ENDS HERE */
 
+    /* FAQ SECTION CSS STARTS HERE */
+    .faq_section{
+        width: 100%;
+    }
+
+    .faq_section .faq_card_section{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        margin: 0;
+        padding: 1rem 1rem;
+
+    }
+    .faq_section .faq_card_section .swiper_slide_card{
+        width: 100% !important  ;
+        height: 300px;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    /* /FAQ SECTION CSS STARTS HERE */
+
     /* GET SOCIAL SECTION */
    .get_social_section{
     width: 100%;
@@ -378,6 +407,11 @@
         /* display: none; */
     }
 
+
+    /* MOBILE VIEW FOOTER LIST ITEMS */
+   
+
+    /* MOBILE VIEW FOOTER LIST ITEMS ENDS */
     /* /FOOTER SECTION */
 
 
@@ -888,4 +922,89 @@
 }
 /* CSS FOR FLOATING SOCIAL ICONS ENDS HERE */
 
+    .services_hero.query_services_hero{
+        height: 60rem;
+    }
+    .services_hero.query_services_hero .services_hero_bgImg{
+        height: 100%;
+    }
+
+    .services_hero .query_form_section{
+        width: 100%;
+        padding: 0 3% !important;
+
+    }
+    .query_form_section .query_Form-sub_section{
+        width: 100%;
+    }
+    .query_form_section .query_Form-sub_section .query_form_title{
+        width: 100%;
+        padding: 0;
+    }
+    .query_form_section .query_Form-sub_section .quey_form_section2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+    .query_form_section .query_Form-sub_section .quey_form_section2 .form_content{
+        width: 100%;
+       
+    }
+    .query_form_section .query_Form-sub_section .quey_form_section2 .form_content .form_heading{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .query_form_section .query_Form-sub_section .quey_form_section2 .form_content .form{
+        width: 100%;
+    }
+    .query_form_section .query_Form-sub_section .quey_form_section2 .form_content .form .form_fields{
+        width: 100%;
+    }
+    .query_form_section .query_Form-sub_section .quey_form_section2 .form_content .form .form_fields .form_input_container{
+        width: 100%;
+    }
+    .query_form_section .query_Form-sub_section .quey_form_section2 .form_content 
+    .form .form_fields .form_input_container .label{
+        width: 100%;
+        font-size: 0.85rem;
+        margin-bottom: 0.5rem;
+    }
+    .query_form_section .query_Form-sub_section .quey_form_section2 .form_content 
+    .form .form_fields .form_input_container .input{
+        width: 100%;
+        padding: 0.3rem 0.2rem;
+    }
+    .query_form_section .query_Form-sub_section .query_form_title .query_title{
+        width: 100%;
+        font-size: 2rem;
+    }
+    .query_form_section .query_Form-sub_section .query_form_title .query_para{
+        width: 100%;
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+
+    .query_form_section .query_Form-sub_section .quey_form_section2 .form_content .form .submit_section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .query_form_section .query_Form-sub_section .quey_form_section2 .form_content .form .submit_section .submit_btn{
+        width: 100%;
+        display: flex;
+    }
+    .query_form_section .query_Form-sub_section .quey_form_section2 .form_content .form .submit_section .form_footer_text{
+        width: 100%;
+    }
+    .query_form_section .query_Form-sub_section .quey_form_section2 
+    .form_content .form .submit_section .form_footer_text p{
+        font-size: 0.79rem;
+    }
+
+/* CSS FOR QUERY PAGE ENDS HERE */
 }
