@@ -1,4 +1,5 @@
 
+
 @media screen and (min-width: 320px) and (max-width: 480px) {
 
 
@@ -176,11 +177,11 @@
     }
     .container-fluid .banner__overlay-section{
         width: 100%;
-        height: 125%;
+        height: 50%;
     }
     .container-fluid .banner__text-section{
         width: 100%;
-        top: 6rem;
+        top: 5rem;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
@@ -231,7 +232,7 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke: 0 white;
-        line-height: 1.5rem;
+        line-height: 0.8rem;
     }
     
     .container-fluid .hero_section_floating_icon{
@@ -266,7 +267,7 @@
     /* SERVICES SECTION */
     .services_section{
         width: 100%;
-        height: 65vh;
+        /* height: 65vh; */
     }
     .services_section .services_left{
         width: 100%;
@@ -295,10 +296,9 @@
         border-bottom: 1px solid black;
     }
     .services_section .services_left .services_heading h1{
-        
         font-size: 2rem;
         color: black ;
-        margin-left: 0rem;
+        margin-left: -1rem;
     }
     .services_section .services_right{
         display: none !important;
@@ -372,7 +372,6 @@
     /* AWARDS SECTION */
     .awards_section{
         width: 100%;
-        height: 92vh;
     }
 
     .awards_head_line{
@@ -423,7 +422,17 @@
         padding: 0rem 1rem;
     }
 
-
+    @media (max-width: 767px) {
+        .awards__bg::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, .25);
+        }
+    }
 
     /* AWARDS SECTION ENDS HERE */
 
