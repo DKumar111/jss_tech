@@ -725,8 +725,8 @@
             <h1 class="awards_outline mt-3">Awards</h1>
         </div>
         <div class="awards_content_wrap ">
-            <div class="awards_content_area row ">
-                <div class="awards_txt-area col-12 col-md-4 col-lg-4 " data-aos="fade-up" data-aos-offset="200"
+            <div class="awards_content_area  align-items-center row ">
+                <div class="awards_txt-area col-12 col-md-5 col-lg-5 " data-aos="fade-up" data-aos-offset="200"
                     data-aos-duration="900" data-aos-once="true">
                     <h2 class="fs-3 fw-semibold">
                         JSS Technologies, a
@@ -741,8 +741,8 @@
                         responsive, scalable, and robust web applications with a touch of finesse.
                     </p>
                 </div>
-                <div class="awards__right-section h-100 col-12 co-md-8 col-lg-8 d-flex ">
-                    <div class="d-flex flex-wrap w-100 ">
+                <div class="awards__right-section  h-100 col-12 co-md-7 col-lg-7 d-flex ">
+                    <div class="d-flex justify-content-center align-items-center flex-wrap w-100 ">
                         <div class="w-25 h-100 p-2 bg-white   ">
                             <a href="#">
                                 <img src="image/award-bagde-1.svg" alt="">
