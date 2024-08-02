@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JSS TECHNOLOGIES</title>
 
+    <link rel="shortcut icon" href="image/JSS-LOGO.png" type="image/x-icon">
+
     <link rel="stylesheet" href="css/styl.css">
     <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/aboutus.css">
     <link rel="stylesheet" href="css/responsiv.css">
+    <link rel="stylesheet" href="css/tablet.css">
 
     <!-- AOS CSS CDN -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -76,7 +79,7 @@
                     We Pilot You to Take on the Digital Landscape </h3>
 
                 <p class="">
-                    At Digital Gravity, we have leading industry professionals and state-of-the-art technology to ensure
+                    At JSS Technologies, we have leading industry professionals and state-of-the-art technology to ensure
                     your business and brands lifts up on the digital front. Our approach is highly strategic and
                     carefully executed to transform your business the way you want, guaranteeing incredible results and
                     maximum profit. </p>
@@ -933,11 +936,13 @@
 
     <!-- /FOOTER SECTION -->
 
-    <script src="js/slider_tab.js"></script>
+   
     <script src="js/sidenav.js"></script>
+    <script src="js/slider_tab.js"></script>
     <script src="js/removeNav.js"></script>
     <script src="js/activeClass.js"></script>
     <script src="js/popup-modal.js"></script>
+    <script src="js/collapsibleList.js"></script>
 
     <!-- BOOTSTRAP JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

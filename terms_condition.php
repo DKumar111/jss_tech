@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JSS TECHNOLOGIES</title>
 
+    <link rel="shortcut icon" href="image/JSS-LOGO.png" type="image/x-icon">
+
     <link rel="stylesheet" href="css/styl.css">
     <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/careere.css">
     <link rel="stylesheet" href="css/responsiv.css">
     <link rel="stylesheet" href="css/pp_tnc.css">
+    <link rel="stylesheet" href="css/tablet.css">
 
     <!-- AOS CSS CDN -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -44,7 +47,7 @@
                         Digital Marketing Agency In Dubai
                     </h6>
                     <h1 class="generic--head__head">
-                        Privacy Policy
+                        Terms & Conditions
                     </h1>
                 </div>
                 <div class="col-30">
@@ -99,12 +102,12 @@
                 </h4>
                 <p class="tnc_para">
                     We will not sell, share, or rent your personal information to any third party or use your email
-                    address for unsolicited mail. Any emails sent by Digital Gravity will only be in connection with the
+                    address for unsolicited mail. Any emails sent by JSS Technologies will only be in connection with the
                     provision of agreed services and products. </p>
                 <h4 class="tnc_head_title" >
                     EXCLUSIONS AND LIMITATIONS </h4>
                 <p class="tnc_para">
-                    The information on Digital Gravity’s web site is provided on an “as is” basis. To the fullest extent
+                    The information on JSS Technologies’s web site is provided on an “as is” basis. To the fullest extent
                     permitted by law, this Company: </p>
                 <h4 class="tnc_head_title" >
                 </h4>
@@ -124,7 +127,7 @@
                 <h4 class="tnc_head_title" >
                 </h4>
                 <p class="tnc_para">
-                    Digital Gravity does not however exclude liability for death or personal injury caused by its
+                    JSS Technologies does not however exclude liability for death or personal injury caused by its
                     negligence. The above exclusions and limitations apply only to the extent permitted by law. None of
                     your statutory rights as a consumer are affected. </p>
                 <h4 class="tnc_head_title" >
@@ -191,6 +194,7 @@
     <script src="js/sidenav.js"></script>
     <script src="js/removeNav.js"></script>
     <script src="js/activeClass.js"></script>
+    <script src="js/collapsibleList.js"></script>
 
     <!-- BOOTSTRAP JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

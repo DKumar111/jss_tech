@@ -22,13 +22,13 @@ document.querySelector(".tablink").click();
 
 // CARD SLIDE USING WHEEL
 
-let cardSection = document.querySelector(".work_card_section");
+let cardSection = document.getElementsByClassName("work_card_section");
 
 cardSection.addEventListener("wheel", (e) =>{
     e.preventDefault(e);
     cardSection.style.scrollBehavior = "smooth";
     cardSection.scrollLeft += e.deltaY;
-})
+});
 
 
 
@@ -42,7 +42,7 @@ worthReadSection.addEventListener("wheel", (e) =>{
     e.preventDefault(e);
     worthReadSection.style.scrollBehavior = "smooth";
     worthReadSection.scrollLeft += e.deltaY;
-})
+});
 
 //WORTH READ CARD SLIDE USING WHEEL
 

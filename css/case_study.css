@@ -56,7 +56,7 @@
 .case_study_arrow{
     width: 2.5rem;
     height: 2.5rem;
-    background-color: #e3204a;
+    background-color: #0300be;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -119,7 +119,7 @@
 .three_card_arrow{
     width: 2rem;
     height: 2rem;
-    background-color: #e3204a;
+    background-color: #0003b9;
     border-radius: 50%;
     display: flex;
     justify-content: center;

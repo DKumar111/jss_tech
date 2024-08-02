@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JSS TECHNOLOGIES</title>
 
+    <link rel="shortcut icon" href="image/JSS-LOGO.png" type="image/x-icon">
+
     <link rel="stylesheet" href="css/styl.css">
     <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/careere.css">
     <link rel="stylesheet" href="css/responsiv.css">
+    <link rel="stylesheet" href="css/tablet.css">
 
     <!-- AOS CSS CDN -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -88,7 +91,7 @@
                 <div class="currentOpenings_card" data-aos="fade-up" data-aos-once="true">
                     <h4 class="currenOpenings_card_title">Full Stack Developer</h4>
                     <p>We are looking for an experienced Full Stack Developer to be added in our Development team.</p>
-                    <a class="currentOpenings_anchor_item" href="full-stack.php">Apply Now</a>
+                    <a class="currentOpenings_anchor_item" href="">Apply Now</a>
                 </div>
                
                 <div class="currentOpenings_card " data-aos="fade-up" data-aos-once="true">
@@ -215,11 +218,12 @@
 
     <!-- /FOOTER SECTION -->
 
-    <script src="js/slider_tab.js"></script>
+
     <script src="js/sidenav.js"></script>
     <script src="js/removeNav.js"></script>
     <script src="js/activeClass.js"></script>
     <script src="js/popup-modal.js"></script>
+    <script src="js/collapsibleList.js"></script>
 
     <!-- BOOTSTRAP JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

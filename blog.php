@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JSS TECHNOLOGIES</title>
 
+    <link rel="shortcut icon" href="image/JSS-LOGO.png" type="image/x-icon">
+
     <link rel="stylesheet" href="css/styl.css">
     <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/responsiv.css">
+    <link rel="stylesheet" href="css/tablet.css">
 
     <!-- AOS CSS CDN -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -55,24 +58,24 @@
             </div>
         </div>
     </div>
-    <!-- ABOUT US BANNER SECTION -->
+    <!-- /ABOUT US BANNER SECTION -->
 
 
     <div class="case_studies">
         <ul class="case-studies__tabs-wrapper categories-filer-body">
             <li class="button  active" data-id="all"> ALL</li>
-            <li class="button" data-id="77"> Branding &amp; Communication </li>
-            <li class="button" data-id="74"> UI/UX </li>
-            <li class="button" data-id="70"> Web Development </li>
-            <li class="button" data-id="76"> Digital Marketing </li>
-            <li class="button" data-id="305"> Creative Production </li>
-            <li class="button" data-id="306">Staff Augmentation </li>
+            <li class="button" data-tab="tab_77" data-id="77"> Branding &amp; Communication </li>
+            <li class="button" data-tab="tab_74" data-id="74"> UI/UX </li>
+            <li class="button" data-tab="tab_70" data-id="70"> Web Development </li>
+            <li class="button" data-tab="tab_76" data-id="76"> Digital Marketing </li>
+            <li class="button" data-tab="tab_305" data-id="305"> Creative Production </li>
+            <li class="button" data-tab="tab_306" data-id="306">Staff Augmentation </li>
         </ul>
-        <!-- CARD SECTION STARTS HERE -->
+      
         <div class="blog-wrapper">
             <div class="blog_wrapper_container">
                 <div class="twocolrow">
-                    <div class="card  shadow bg-body-tertiary rounded">
+                    <div class="card  shadow bg-body-tertiary rounded" id="tab_77">
                         <img src="https://www.digitalgravity.ae/blog/wp-content/uploads/2024/04/Decoding-UAE-Social-Media-Trends-Insights-and-Statistics-for-2024-624x285.jpg"
                             class="card-img-top" alt="...">
                         <div class="card-body">
@@ -82,7 +85,7 @@
 
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card shadow bg-body-tertiary rounded" id="tab_74">
                         <img src="https://www.digitalgravity.ae/blog/wp-content/uploads/2024/04/The-Rise-of-Augmented-Reality-in-Mobile-App-Development-624x285.jpg"
                             class="card-img-top" alt="...">
                         <div class="card-body">
@@ -92,7 +95,7 @@
 
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card shadow bg-body-tertiary rounded" id="tab_70">
                         <img src="https://www.digitalgravity.ae/blog/wp-content/uploads/2024/04/Discover-the-Magic-of-Mobile-First-Indexing-for-your-SEO-Strategy-624x285.jpg"
                             class="card-img-top" alt="...">
                         <div class="card-body">
@@ -102,7 +105,7 @@
 
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card shadow bg-body-tertiary rounded" id="tab_76">
                         <img src="https://www.digitalgravity.ae/blog/wp-content/uploads/2024/04/The-Power-of-Corporate-Films-Enhancing-Business-Success-through-Video-Production-624x285.jpg"
                             class="card-img-top" alt="...">
                         <div class="card-body">
@@ -112,7 +115,7 @@
 
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card shadow bg-body-tertiary rounded" id="tab_305">
                         <img src="https://www.digitalgravity.ae/blog/wp-content/uploads/2024/04/Eid-ul-Fitr-2024-UAEs-Fun-filled-Week-of-Festivities.jpg"
                             class="card-img-top" alt="...">
                         <div class="card-body">
@@ -122,7 +125,7 @@
 
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card shadow bg-body-tertiary rounded" id="tab_70">
                         <img src="https://www.digitalgravity.ae/blog/wp-content/uploads/2024/04/Planning-Your-2024-Eid-ul-Fitr-Holidays-in-the-UAE.jpg"
                             class="card-img-top" alt="...">
                         <div class="card-body">
@@ -132,7 +135,7 @@
 
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card shadow bg-body-tertiary rounded" id="tab_306">
                         <img src="https://www.digitalgravity.ae/blog/wp-content/uploads/2024/03/9-Key-Benefits-of-Hybrid-App-Development-624x285.jpg"
                             class="card-img-top" alt="...">
                         <div class="card-body">
@@ -142,7 +145,7 @@
 
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card shadow bg-body-tertiary rounded"  id="tab_306">
                         <img src="https://www.digitalgravity.ae/blog/wp-content/uploads/2024/03/Top-10-Mobile-App-Development-Frameworks-624x285.jpg"
                             class="card-img-top" alt="...">
                         <div class="card-body">
@@ -152,7 +155,7 @@
 
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card shadow bg-body-tertiary rounded" id="tab_305">
                         <img src="https://www.digitalgravity.ae/blog/wp-content/uploads/2024/03/10-Tips-for-Keeping-Your-Website-Healthy-624x285.jpg"
                             class="card-img-top" alt="...">
                         <div class="card-body">
@@ -210,6 +213,8 @@
     <script src="js/removeNav.js"></script>
     <script src="js/activeClass.js"></script>
     <script src="js/popup-modal.js"></script>
+    <script src="js/blog_tab.js"></script>
+    <script src="js/collapsibleList.js"></script>
 
     <!-- BOOTSTRAP JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

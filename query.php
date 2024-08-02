@@ -1,29 +1,39 @@
 <?php
-if(isset($_POST['send'])){
-        $username = $_POST['username'];
-        $email = $_POST['email'];
-        $phone = $_POST['phone'];
-        $usermesg = $_POST['message'];
+// include 'dbconnect.php';
 
-        $toEmail = "dk9094293@gmail.com";
+if(isset($_POST['submit'])){
+    // $get_data = $_GET['text'];
+    $subject = "Enquiry form JSS Technologies website";
+    $name = $_POST['fullname'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $budget = $_POST['budget'];
+    $message = $_POST['message'];
 
-        $mailHeaders = "Name: " .$username. 
-        "\r\n Email: " . $email .
-        "\r\n  Subject: " . $phone . 
-        "\r\n Message: " .$usermesg . "\r\n";
+    $toEmail = "info@jsstechnologiesllc.com";
 
-        if(mail($toEmail, $username, $mailHeaders)){
+  // $insert_sql = "INSERT INTO `emails`(`full_name`, `company`, `email`, `phone`, `interest`, `budget`, `message`, `send_at`) 
+   // VALUES ('$fullname','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]','[value-8]','[value-9]')";
 
-            echo "<script>alert('Email sent successfully')</script>";
+   $headers = [
+    'Name' => $name,
+    'From' => $email,
+    'Phone Number' => $phone,
+    'Budget' => $budget,
+    'Message' => $message
+];
 
-            // $message = "Your information is recieved successfully.";
-        }
-            // echo "<script>alert('Message has been sent')</script>";
-       
+$headers = implode("\r\n", $headers);
+
+    // $mailHeaders = "Name: " .$name. 
+    // "\r\n Email: " . $email .
+    // "\r\n Phone: " . $phone .
+    // "\r\n Message: " .$message . "\r\n";
+
+    mail($toEmail, $subject, $name, $headers);
+        // echo "Your information is recieved successfully.";
+        echo "<script>alert('Email Sent')</script>";
 }
-
-
-
 ?>
 
 <!DOCTYPE html>
@@ -34,11 +44,14 @@ if(isset($_POST['send'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JSS TECHNOLOGIES</title>
 
+    <link rel="shortcut icon" href="image/JSS-LOGO.png" type="image/x-icon">
+
     <link rel="stylesheet" href="css/styl.css">
     <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/services.css">
     <link rel="stylesheet" href="css/responsiv.css">
     <link rel="stylesheet" href="css/query.css">
+    <link rel="stylesheet" href="css/tablet.css">
 
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -69,13 +82,13 @@ if(isset($_POST['send'])){
         <!-- SERVICES US BANNER SECTION -->
         <div class="query_form_section">
             <?php
-                $get_data = $_GET['text'];
+                // $get_data = $_GET['text'];
             ?>
             <div class="query_Form-sub_section">
 
                 <div class="query_form_title">
                     <h1 class="query_title">
-                        <?php  echo $get_data  ?></h1>
+                        <?php // echo $get_data  ?></h1>
                     <h6 class="query_para">
                         Boost your online growth with JSS Technologies. As a leading digital marketing agency in the
                         UAE,
@@ -87,7 +100,7 @@ if(isset($_POST['send'])){
                         <div class="form_heading">
                             <h3>Have any questions ?</h3>
                         </div>
-                        <form class="form" action="" method="post">
+                        <form class="form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?> " method="post">
                             <div class="form_fields">
                                 <div class="form_input_container">
                                     <label for="name" class="label">Your Name*</label>
@@ -98,34 +111,34 @@ if(isset($_POST['send'])){
                             <div class="form_fields">
                                 <div class="form_input_container">
                                     <label for="name" class="label">Your Email*</label>
-                                    <input id="name" class="input" name="fullname" type="email"
+                                    <input id="name" class="input" name="email" type="email"
                                         placeholder="Enter your Email" tabindex="1">
                                 </div>
                             </div>
                             <div class="form_fields">
                                 <div class="form_input_container">
                                     <label for="name" class="label">Your Phone Number*</label>
-                                    <input id="name" class="input" name="fullname" type="text"
+                                    <input id="name" class="input" name="phone" type="text"
                                         placeholder="Enter your Phone Number" tabindex="1">
                                 </div>
                             </div>
                             <div class="form_fields">
                                 <div class="form_input_container">
                                     <label for="name" class="label">Budget*</label>
-                                    <input id="name" class="input" name="fullname" type="text"
+                                    <input id="name" class="input" name="budget" type="text"
                                         placeholder="Enter your Budget" tabindex="1">
                                 </div>
                             </div>
                             <div class="form_fields">
                                 <div class="form_input_container">
                                     <label for="name" class="label">Message*</label>
-                                    <input id="name" class="input" name="fullname" type="text"
+                                    <input id="name" class="input" name="message" type="text"
                                         placeholder="Enter your Message" tabindex="1">
                                 </div>
                             </div>
                             <div class="submit_section">
                                 <div class="submit_btn">
-                                    <button>
+                                    <button name="submit">
                                         <span>Send</span>
                                         <div class="form_send_arrow">
                                         <i style="" class="fa-solid fa-arrow-right"></i>
@@ -166,6 +179,7 @@ if(isset($_POST['send'])){
         <script src="js/sidenav.js"></script>
         <script src="js/removeNav.js"></script>
         <script src="js/activeClass.js"></script>
+        <script src="js/collapsibleList.js"></script>
 
         <!-- BOOTSTRAP JS CDN -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

@@ -1,30 +1,43 @@
 <?php
-if(isset($_POST['send'])){
-        $username = $_POST['username'];
-        $email = $_POST['email'];
-        $phone = $_POST['phone'];
-        $usermesg = $_POST['message'];
+// include 'dbconnect.php';
 
-        $toEmail = "dk9094293@gmail.com";
+if(isset($_POST['submit'])){
+    $subject = "Enquiry form JSS Technologies website";
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phoneNumber'];
+    $message = $_POST['message'];
 
-        $mailHeaders = "Name: " .$username. 
-        "\r\n Email: " . $email .
-        "\r\n  Subject: " . $phone . 
-        "\r\n Message: " .$usermesg . "\r\n";
+    $toEmail = "info@jsstechnologiesllc.com";
 
-        if(mail($toEmail, $username, $mailHeaders)){
+  // $insert_sql = "INSERT INTO `emails`(`full_name`, `company`, `email`, `phone`, `interest`, `budget`, `message`, `send_at`) 
+   // VALUES ('$fullname','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]','[value-8]','[value-9]')";
 
-            echo "<script>alert('Email sent successfully')</script>";
 
-            // $message = "Your information is recieved successfully.";
-        }
-            // echo "<script>alert('Message has been sent')</script>";
-       
+$headers = [
+    'Name' => $name,
+    'From' => $email,
+    'Phone Number' => $phone,
+    'Message' => $message,
+    'MIME-Version' => '1.0',
+    'Content-Type' => 'text/html; charset=iso-8859-1'
+];
+
+$headers = implode("\r\n", $headers);
+
+
+    // $header = "Name: " . $name .
+    // "\r\n Email: " . $email .
+    // "\r\n Phone: " . $phone .
+    // "\r\n Message: " . $message . "\r\n";
+
+    mail($toEmail, $subject, $name, $headers);
+        // echo "Mail sent successfully!";
+        echo "<script>alert('Your information is recieved successfully!.')</script>";
+        // echo "<script>window.open('../index.php','_self')</script>"; 
 }
-
-
-
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -34,10 +47,13 @@ if(isset($_POST['send'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JSS TECHNOLOGIES</title>
 
+    <link rel="shortcut icon" href="image/JSS-LOGO.png" type="image/x-icon">
+
     <link rel="stylesheet" href="css/styl.css">
     <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/services.css">
     <link rel="stylesheet" href="css/responsiv.css">
+    <link rel="stylesheet" href="css/tablet.css">
 
    
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -82,21 +98,21 @@ if(isset($_POST['send'])){
                         enquiry please check our <a href="careers.php" class="primary-col w-uline">Career</a> section.
                     </p>
                 </div>
-                <form action="" method="post">
+                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
                     <div class="form_control">
-                        <input type="text" name="" class="username" id="" required="required">
+                        <input type="text" name="name" autocomplete ="on"  id="" required="required">
                         <label for="name">Your Name*</label>
                     </div>
                     <div class="form_control">
-                        <input type="text" name="" class="email" id="" required="required">
+                        <input type="email" autocomplete ="on" name="email"  id="" required="required">
                         <label for="name">Your Email*</label>
                     </div>
                     <div class="form_control">
-                        <input type="text" name="" class="phone" id="" required="required">
+                        <input type="text" name="phoneNumber" autocomplete ="on"  id="" required="required">
                         <label for="name">Your Phone*</label>
                     </div>
                     <div class="form_control">
-                        <input type="text" name="" class="message" id="" required="required">
+                        <input type="text" name="message " autocomplete ="on"  id="" required="required">
                         <label for="name">Your Message*</label>
                     </div>
                     <div class="form_button_wrapper">
@@ -122,7 +138,7 @@ if(isset($_POST['send'])){
             </div>
 
             <div class="service_help_card_wrapper">
-                <a class="service_card text-decoration-none " data-aos="fade-up" data-aos-once="ture" href="#">
+                <a class="service_card text-decoration-none " data-aos="fade-up" data-aos-once="ture" href="query.php">
                     <div class="card_img">
                         <img src="image/card-1.svg" alt="">
                     </div>
@@ -133,7 +149,7 @@ if(isset($_POST['send'])){
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
                 </a>
-                <a class="service_card text-decoration-none " data-aos="fade-up" data-aos-once="ture" href="#">
+                <a class="service_card text-decoration-none " data-aos="fade-up" data-aos-once="ture" href="query.php">
                     <div class="card_img">
                         <img src="image/card-1.svg" alt="">
                     </div>
@@ -146,7 +162,7 @@ if(isset($_POST['send'])){
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
                 </a>
-                <a class="service_card text-decoration-none " data-aos="fade-up" data-aos-once="ture" href="#">
+                <a class="service_card text-decoration-none " data-aos="fade-up" data-aos-once="ture" href="query.php">
                     <div class="card_img">
                         <img src="image/card-1.svg" alt="">
                     </div>
@@ -159,7 +175,7 @@ if(isset($_POST['send'])){
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
                 </a>
-                <a class="service_card text-decoration-none " data-aos="fade-up" data-aos-once="ture" href="#">
+                <a class="service_card text-decoration-none " data-aos="fade-up" data-aos-once="ture" href="query.php">
                     <div class="card_img">
                         <img src="image/card-1.svg" alt="">
                     </div>
@@ -172,7 +188,7 @@ if(isset($_POST['send'])){
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
                 </a>
-                <a class="service_card text-decoration-none " data-aos="fade-up" data-aos-once="ture" href="#">
+                <a class="service_card text-decoration-none " data-aos="fade-up" data-aos-once="ture" href="query.php">
                     <div class="card_img">
                         <img src="image/card-1.svg" alt="">
                     </div>
@@ -186,7 +202,7 @@ if(isset($_POST['send'])){
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
                 </a>
-                <a class="service_card text-decoration-none " data-aos="fade-up" data-aos-once="ture" href="#">
+                <a class="service_card text-decoration-none " data-aos="fade-up" data-aos-once="ture" href="query.php">
                     <div class="card_img">
                         <img src="image/card-1.svg" alt="">
                     </div>
@@ -199,7 +215,7 @@ if(isset($_POST['send'])){
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
                 </a>
-                <a class="service_card text-decoration-none " data-aos="fade-up" data-aos-once="ture" href="#">
+                <a class="service_card text-decoration-none " data-aos="fade-up" data-aos-once="ture" href="query.php">
                     <div class="card_img">
                         <img src="image/card-1.svg" alt="">
                     </div>
@@ -215,7 +231,7 @@ if(isset($_POST['send'])){
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
                 </a>
-                <a class="service_card text-decoration-none " data-aos="fade-up" data-aos-once="ture" href="#">
+                <a class="service_card text-decoration-none " data-aos="fade-up" data-aos-once="ture" href="query.php">
                     <div class="card_img">
                         <img src="image/card-1.svg" alt="">
                     </div>
@@ -249,11 +265,11 @@ if(isset($_POST['send'])){
 
     <!-- /FOOTER SECTION -->
 
-    <script src="js/slider_tab.js"></script>
     <script src="js/sidenav.js"></script>
-    <script src="js/removeNav.js"></script>
+    <script src="js/removenav.js"></script>
     <script src="js/activeClass.js"></script>
     <script src="js/popup-modal.js"></script>
+    <script src="js/collapsibleList.js"></script>
 
     <!-- BOOTSTRAP JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

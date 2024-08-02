@@ -16,4 +16,4 @@ for(let i=0; i<tabButtons.length;i++){
         this.classList.add("active");
     })
 }
-document.querySelector(".tablink").click();
+// document.querySelector(".tablink").click();
